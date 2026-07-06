@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 from sklearn.model_selection import train_test_split, RandomizedSearchCV, GridSearchCV
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report, roc_auc_score, roc_curve, precision_recall_curve, f1_score, auc
@@ -47,13 +47,31 @@ class JobMatchPreprocessor(BaseEstimator, TransformerMixin):
         exp_job = X['exp_required_years'].fillna(0) if 'exp_required_years' in X else pd.Series(0, index=X.index)
         X_out['diff_experience'] = exp_student - exp_job
         
-        # 3. Diff Python
+        # 3. Diff Skills
         X_out['diff_python'] = X_filled['python_score'] - X_filled['python_required']
-        
-        # 4. Diff ML
         X_out['diff_ml'] = X_filled['ml_score'] - X_filled['ml_required']
+        X_out['diff_sql'] = X_filled['sql_score'] - X_filled['sql_required']
+        X_out['diff_stats'] = X_filled['statistics_score'] - X_filled['statistics_required']
+        X_out['diff_js'] = X_filled['javascript_score'] - X_filled['javascript_required']
+        X_out['diff_ds'] = X_filled['data_structures_score'] - X_filled['data_structures_required']
         
-        return X_out[['diff_experience', 'diff_python', 'diff_ml', 'domain_match']]
+        # 5. Salary diff
+        salary_exp = X['expected_salary_inr'].fillna(0) if 'expected_salary_inr' in X else pd.Series(0, index=X.index)
+        salary_off = X['salary_offered_inr'].fillna(0) if 'salary_offered_inr' in X else pd.Series(0, index=X.index)
+        X_out['diff_salary'] = salary_off - salary_exp
+        
+        # 6. Education diff
+        edu_map = {'UG': 1, 'PG': 2, 'PhD': 3}
+        stu_edu = X['education_level'].map(edu_map).fillna(1) if 'education_level' in X else pd.Series(1, index=X.index)
+        job_edu = X['edu_minimum'].map(edu_map).fillna(1) if 'edu_minimum' in X else pd.Series(1, index=X.index)
+        X_out['diff_education'] = stu_edu - job_edu
+        
+        # 7. Location match
+        loc_stu = X['location_student'].fillna('') if 'location_student' in X else pd.Series('', index=X.index)
+        loc_job = X['location_job'].fillna('') if 'location_job' in X else pd.Series('', index=X.index)
+        X_out['location_match'] = (loc_stu == loc_job).astype(int)
+        
+        return X_out[['diff_experience', 'diff_python', 'diff_ml', 'diff_sql', 'diff_stats', 'diff_js', 'diff_ds']]
 
 def main():
     # 1. Load Data
@@ -76,8 +94,8 @@ def main():
     print(f"\nData splits - Train/Val (CV): {len(X_train_full)}, Test: {len(X_test)}")
     
     # 4. Build Full Pipeline
-    print("\nBuilding Final Job Match LR Pipeline...")
-    numeric_features = ['diff_experience', 'diff_python', 'diff_ml', 'domain_match']
+    print("\nBuilding Final Job Match RF Pipeline...")
+    numeric_features = ['diff_experience', 'diff_python', 'diff_ml', 'diff_sql', 'diff_stats', 'diff_js', 'diff_ds']
     
     col_transformer = ColumnTransformer(
         transformers=[('scaler', StandardScaler(), numeric_features)],
@@ -87,48 +105,29 @@ def main():
     pipeline = Pipeline([
         ('feature_engineering', JobMatchPreprocessor()),
         ('column_transfer', col_transformer),
-        ('classifier', LogisticRegression(random_state=42, max_iter=1000))
+        ('classifier', RandomForestClassifier(random_state=42))
     ])
     
     # 5. Hyperparameter Tuning
     print("\n--- Hyperparameter Tuning ---")
     # Random Search
     param_dist = {
-        'classifier__C': stats.loguniform(1e-4, 1e2),
-        'classifier__penalty': ['l2'], 
-        'classifier__solver': ['lbfgs', 'liblinear']
+        'classifier__n_estimators': [50, 100, 200, 300],
+        'classifier__max_depth': [None, 10, 20, 30],
+        'classifier__min_samples_split': [2, 5, 10]
     }
     
     print("Running RandomizedSearchCV...")
     random_search = RandomizedSearchCV(
         pipeline, param_distributions=param_dist, 
-        n_iter=10, cv=3, scoring='roc_auc', random_state=42, n_jobs=-1
+        n_iter=15, cv=3, scoring='roc_auc', random_state=42, n_jobs=-1
     )
     # Fit on train_full
     random_search.fit(X_train_full, y_train_full)
     
     print(f"Best Random Search AUC: {random_search.best_score_:.4f}")
-    best_c = random_search.best_params_['classifier__C']
-    best_solver = random_search.best_params_['classifier__solver']
     
-    # Grid Search around best C
-    print(f"Running GridSearchCV around C={best_c:.4f} and solver={best_solver}...")
-    param_grid = {
-        'classifier__C': [best_c * 0.1, best_c, best_c * 10],
-        'classifier__penalty': ['l2'],
-        'classifier__solver': [best_solver]
-    }
-    
-    grid_search = GridSearchCV(
-        pipeline, param_grid=param_grid, 
-        cv=3, scoring='roc_auc', n_jobs=-1
-    )
-    grid_search.fit(X_train_full, y_train_full)
-    
-    print(f"Best Grid Search AUC (on CV): {grid_search.best_score_:.4f}")
-    print(f"Best Parameters: {grid_search.best_params_}")
-    
-    best_pipeline = grid_search.best_estimator_
+    best_pipeline = random_search.best_estimator_
     
     # 6. Evaluate on Test Set
     test_preds = best_pipeline.predict(X_test)
@@ -143,13 +142,13 @@ def main():
     print("\nClassification Report (Test):")
     print(classification_report(y_test, test_preds))
     
-    # Feature Coefficients
-    lr_model = best_pipeline.named_steps['classifier']
-    coefficients = lr_model.coef_[0]
+    # Feature Importances
+    rf_model = best_pipeline.named_steps['classifier']
+    importances = rf_model.feature_importances_
     
-    print("\n--- Feature Coefficients (LR - Tuned) ---")
-    for feat, coef in zip(numeric_features, coefficients):
-        print(f"{feat}: {coef:.4f}")
+    print("\n--- Feature Importances (RF - Tuned) ---")
+    for feat, imp in zip(numeric_features, importances):
+        print(f"{feat}: {imp:.4f}")
         
     # 7. Check Gates
     print("\n--- Checking Evaluation Gates on TEST SET ---")
@@ -184,8 +183,8 @@ def main():
     plt.legend(loc="lower left")
     
     plt.tight_layout()
-    plt.savefig('plots/lr_roc_pr_curves_tuned.png')
-    print("Saved Tuned ROC and PR curves to plots/lr_roc_pr_curves_tuned.png")
+    plt.savefig('plots/rf_roc_pr_curves_tuned.png')
+    print("Saved Tuned ROC and PR curves to plots/rf_roc_pr_curves_tuned.png")
     
     # Sweep thresholds to find best F1 on Test Set
     best_threshold = 0.5
@@ -201,8 +200,8 @@ def main():
         
     # 8. Save final pipeline
     os.makedirs('models', exist_ok=True)
-    joblib.dump(best_pipeline, 'models/lr_job_match_pipeline_tuned.pkl')
-    print("\nTuned LR Pipeline saved to models/lr_job_match_pipeline_tuned.pkl")
+    joblib.dump(best_pipeline, 'models/rf_job_match_pipeline_tuned.pkl')
+    print("\nTuned RF Pipeline saved to models/rf_job_match_pipeline_tuned.pkl")
 
 if __name__ == '__main__':
     main()
