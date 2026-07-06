@@ -1,0 +1,501 @@
+application_id,student_id,job_id,application_date,is_good_match,recruiter_notes_post_decision
+a0000,s0053,j031,2026-04-13,1,"Strong fit, proceeding to interview"
+a0001,s0046,j008,2026-04-29,0,"Borderline, escalated for review"
+a0002,s0131,j020,2026-03-05,1,"Strong fit, proceeding to interview"
+a0003,s0055,j013,2026-04-07,0,Did not meet bar
+a0004,s0074,j018,2026-03-02,0,Did not meet bar
+a0005,s0145,j001,2026-05-27,0,Did not meet bar
+a0006,s0050,j023,2026-02-20,1,"Strong fit, proceeding to interview"
+a0007,s0084,j016,2026-05-28,0,Did not meet bar
+a0008,s0011,j003,2026-04-18,1,"Strong fit, proceeding to interview"
+a0009,s0113,j009,2026-05-26,1,"Strong fit, proceeding to interview"
+a0010,s0140,j007,2026-03-24,0,Did not meet bar
+a0011,s0003,j038,2026-01-21,0,Did not meet bar
+a0012,s0126,j010,2026-04-23,1,"Borderline, escalated for review"
+a0013,s0008,j016,2026-05-15,0,Did not meet bar
+a0014,s0015,j017,2026-01-27,0,Did not meet bar
+a0015,s0022,j012,2026-02-10,1,"Strong fit, proceeding to interview"
+a0016,s0101,j029,2026-05-08,0,Did not meet bar
+a0017,s0117,j022,2026-04-14,0,Did not meet bar
+a0018,s0002,j028,2026-03-07,1,"Strong fit, proceeding to interview"
+a0019,s0126,j036,2026-02-10,0,"Borderline, escalated for review"
+a0020,s0055,j007,2026-01-31,0,Did not meet bar
+a0021,s0110,j015,2026-05-01,0,Did not meet bar
+a0022,s0116,j014,2026-01-17,0,"Borderline, escalated for review"
+a0023,s0087,j033,2026-03-28,0,Did not meet bar
+a0024,s0012,j025,2026-03-07,1,"Strong fit, proceeding to interview"
+a0025,s0055,j007,2026-03-03,0,Did not meet bar
+a0026,s0018,j028,2026-03-09,1,"Strong fit, proceeding to interview"
+a0027,s0145,j025,2026-01-06,0,Did not meet bar
+a0028,s0115,j011,2026-04-16,0,Did not meet bar
+a0029,s0036,j031,2026-05-12,0,Did not meet bar
+a0030,s0095,j020,2026-02-19,1,"Borderline, escalated for review"
+a0031,s0110,j026,2026-02-12,0,"Borderline, escalated for review"
+a0032,s0036,j032,2026-03-05,0,Did not meet bar
+a0033,s0043,j022,2026-05-09,0,Did not meet bar
+a0034,s0106,j008,2026-05-14,1,"Strong fit, proceeding to interview"
+a0035,s0117,j009,2026-05-27,1,"Strong fit, proceeding to interview"
+a0036,s0042,j017,2026-05-02,0,Did not meet bar
+a0037,s0120,j009,2026-03-06,0,Did not meet bar
+a0038,s0139,j014,2026-03-07,0,Did not meet bar
+a0039,s0127,j005,2026-03-27,0,Did not meet bar
+a0040,s0024,j030,2026-03-04,0,Did not meet bar
+a0041,s0063,j018,2026-03-23,1,"Strong fit, proceeding to interview"
+a0042,s0149,j012,2026-02-07,0,"Borderline, escalated for review"
+a0043,s0091,j004,2026-04-01,0,Did not meet bar
+a0044,s0117,j026,2026-05-13,0,Did not meet bar
+a0045,s0056,j009,2026-04-22,1,"Strong fit, proceeding to interview"
+a0046,s0053,j035,2026-01-03,1,"Strong fit, proceeding to interview"
+a0047,s0043,j018,2026-04-27,0,Did not meet bar
+a0048,s0135,j006,2026-03-01,0,Did not meet bar
+a0049,s0092,j026,2026-01-17,0,Did not meet bar
+a0050,s0024,j021,2026-02-01,0,"Borderline, escalated for review"
+a0051,s0139,j024,2026-03-04,1,"Strong fit, proceeding to interview"
+a0052,s0037,j003,2026-03-14,0,Did not meet bar
+a0053,s0099,j037,2026-03-18,1,"Strong fit, proceeding to interview"
+a0054,s0016,j008,2026-03-24,0,Did not meet bar
+a0055,s0099,j011,2026-04-07,1,"Strong fit, proceeding to interview"
+a0056,s0091,j001,2026-03-15,0,Did not meet bar
+a0057,s0053,j020,2026-01-13,1,"Strong fit, proceeding to interview"
+a0058,s0116,j003,2026-02-02,1,"Borderline, escalated for review"
+a0059,s0042,j007,2026-05-26,1,"Strong fit, proceeding to interview"
+a0060,s0122,j019,2026-03-10,0,Did not meet bar
+a0061,s0028,j039,2026-01-03,0,"Borderline, escalated for review"
+a0062,s0016,j026,2026-03-08,0,Did not meet bar
+a0063,s0017,j007,2026-05-07,1,"Strong fit, proceeding to interview"
+a0064,s0141,j038,2026-03-12,0,Did not meet bar
+a0065,s0008,j005,2026-04-20,1,"Strong fit, proceeding to interview"
+a0066,s0059,j031,2026-01-31,1,"Strong fit, proceeding to interview"
+a0067,s0138,j011,2026-03-18,1,"Strong fit, proceeding to interview"
+a0068,s0132,j008,2026-05-30,1,"Strong fit, proceeding to interview"
+a0069,s0143,j006,2026-03-24,0,Did not meet bar
+a0070,s0006,j035,2026-02-14,0,Did not meet bar
+a0071,s0023,j031,2026-01-27,0,Did not meet bar
+a0072,s0106,j029,2026-01-07,1,"Strong fit, proceeding to interview"
+a0073,s0071,j008,2026-04-22,1,"Borderline, escalated for review"
+a0074,s0064,j026,2026-05-04,0,Did not meet bar
+a0075,s0135,j004,2026-05-12,1,"Strong fit, proceeding to interview"
+a0076,s0009,j015,2026-03-30,1,"Strong fit, proceeding to interview"
+a0077,s0009,j011,2026-04-09,1,"Strong fit, proceeding to interview"
+a0078,s0046,j023,2026-02-17,0,"Borderline, escalated for review"
+a0079,s0136,j008,2026-01-14,0,Did not meet bar
+a0080,s0148,j027,2026-05-02,0,Did not meet bar
+a0081,s0104,j031,2026-05-13,0,Did not meet bar
+a0082,s0036,j001,2026-03-01,0,Did not meet bar
+a0083,s0092,j022,2026-03-08,0,Did not meet bar
+a0084,s0013,j021,2026-04-17,0,Did not meet bar
+a0085,s0084,j009,2026-03-25,0,Did not meet bar
+a0086,s0087,j016,2026-05-19,1,"Strong fit, proceeding to interview"
+a0087,s0005,j025,2026-04-01,1,"Borderline, escalated for review"
+a0088,s0089,j022,2026-05-07,0,Did not meet bar
+a0089,s0096,j027,2026-05-30,1,"Strong fit, proceeding to interview"
+a0090,s0147,j023,2026-01-31,0,Did not meet bar
+a0091,s0007,j003,2026-02-03,1,"Borderline, escalated for review"
+a0092,s0001,j036,2026-05-14,1,"Strong fit, proceeding to interview"
+a0093,s0014,j000,2026-05-12,0,Did not meet bar
+a0094,s0061,j019,2026-03-10,1,"Strong fit, proceeding to interview"
+a0095,s0041,j000,2026-01-19,1,"Strong fit, proceeding to interview"
+a0096,s0092,j022,2026-02-25,0,"Borderline, escalated for review"
+a0097,s0052,j036,2026-04-11,0,Did not meet bar
+a0098,s0024,j003,2026-03-27,0,Did not meet bar
+a0099,s0071,j000,2026-03-13,1,"Strong fit, proceeding to interview"
+a0100,s0035,j039,2026-03-21,0,Did not meet bar
+a0101,s0046,j017,2026-04-05,0,Did not meet bar
+a0102,s0104,j014,2026-05-12,0,Did not meet bar
+a0103,s0145,j016,2026-04-05,1,"Borderline, escalated for review"
+a0104,s0030,j012,2026-05-21,0,"Borderline, escalated for review"
+a0105,s0062,j020,2026-05-01,0,Did not meet bar
+a0106,s0105,j011,2026-02-12,1,"Strong fit, proceeding to interview"
+a0107,s0102,j010,2026-02-05,0,Did not meet bar
+a0108,s0122,j008,2026-01-13,0,Did not meet bar
+a0109,s0137,j025,2026-04-18,1,"Strong fit, proceeding to interview"
+a0110,s0058,j017,2026-02-21,0,Did not meet bar
+a0111,s0133,j039,2026-02-25,1,"Strong fit, proceeding to interview"
+a0112,s0121,j031,2026-01-26,0,Did not meet bar
+a0113,s0028,j034,2026-05-11,0,Did not meet bar
+a0114,s0092,j010,2026-02-15,0,"Borderline, escalated for review"
+a0115,s0087,j008,2026-05-17,0,Did not meet bar
+a0116,s0133,j011,2026-04-01,1,"Strong fit, proceeding to interview"
+a0117,s0054,j029,2026-01-29,1,"Strong fit, proceeding to interview"
+a0118,s0051,j037,2026-03-15,0,Did not meet bar
+a0119,s0147,j022,2026-03-31,0,Did not meet bar
+a0120,s0012,j039,2026-02-20,1,"Strong fit, proceeding to interview"
+a0121,s0132,j019,2026-04-10,1,"Strong fit, proceeding to interview"
+a0122,s0092,j036,2026-04-14,0,Did not meet bar
+a0123,s0107,j007,2026-04-16,1,"Strong fit, proceeding to interview"
+a0124,s0119,j017,2026-04-24,0,Did not meet bar
+a0125,s0064,j011,2026-02-13,0,Did not meet bar
+a0126,s0126,j013,2026-02-25,0,"Borderline, escalated for review"
+a0127,s0056,j027,2026-05-12,1,"Strong fit, proceeding to interview"
+a0128,s0041,j012,2026-04-20,1,"Strong fit, proceeding to interview"
+a0129,s0147,j016,2026-01-04,0,"Borderline, escalated for review"
+a0130,s0121,j028,2026-02-05,0,Did not meet bar
+a0131,s0029,j004,2026-05-15,1,"Borderline, escalated for review"
+a0132,s0139,j028,2026-01-27,0,Did not meet bar
+a0133,s0141,j019,2026-03-01,0,"Borderline, escalated for review"
+a0134,s0128,j007,2026-04-06,0,Did not meet bar
+a0135,s0059,j004,2026-02-03,1,"Strong fit, proceeding to interview"
+a0136,s0098,j034,2026-01-09,1,"Strong fit, proceeding to interview"
+a0137,s0018,j022,2026-03-24,0,Did not meet bar
+a0138,s0073,j021,2026-03-07,0,Did not meet bar
+a0139,s0034,j013,2026-05-19,0,Did not meet bar
+a0140,s0055,j008,2026-02-26,0,Did not meet bar
+a0141,s0030,j035,2026-02-21,1,"Strong fit, proceeding to interview"
+a0142,s0002,j003,2026-03-13,1,"Strong fit, proceeding to interview"
+a0143,s0082,j012,2026-02-22,0,Did not meet bar
+a0144,s0111,j022,2026-05-09,0,Did not meet bar
+a0145,s0011,j026,2026-03-04,0,Did not meet bar
+a0146,s0081,j011,2026-01-03,1,"Strong fit, proceeding to interview"
+a0147,s0008,j033,2026-02-21,1,"Borderline, escalated for review"
+a0148,s0021,j019,2026-04-01,0,Did not meet bar
+a0149,s0034,j001,2026-05-10,0,Did not meet bar
+a0150,s0113,j011,2026-02-02,0,"Borderline, escalated for review"
+a0151,s0019,j017,2026-01-25,0,Did not meet bar
+a0152,s0140,j022,2026-04-23,0,Did not meet bar
+a0153,s0029,j007,2026-05-21,1,"Borderline, escalated for review"
+a0154,s0142,j028,2026-03-03,1,"Strong fit, proceeding to interview"
+a0155,s0030,j031,2026-04-04,1,"Strong fit, proceeding to interview"
+a0156,s0109,j013,2026-04-07,0,Did not meet bar
+a0157,s0027,j011,2026-02-02,0,"Borderline, escalated for review"
+a0158,s0043,j007,2026-02-19,1,"Strong fit, proceeding to interview"
+a0159,s0043,j032,2026-05-12,0,Did not meet bar
+a0160,s0033,j031,2026-04-17,0,"Borderline, escalated for review"
+a0161,s0104,j032,2026-03-26,0,"Borderline, escalated for review"
+a0162,s0097,j029,2026-04-27,1,"Borderline, escalated for review"
+a0163,s0005,j004,2026-05-15,0,Did not meet bar
+a0164,s0090,j032,2026-01-16,1,"Strong fit, proceeding to interview"
+a0165,s0036,j019,2026-01-01,1,"Strong fit, proceeding to interview"
+a0166,s0044,j036,2026-03-14,0,"Borderline, escalated for review"
+a0167,s0135,j024,2026-01-19,1,"Strong fit, proceeding to interview"
+a0168,s0018,j034,2026-02-07,0,Did not meet bar
+a0169,s0047,j001,2026-02-19,0,Did not meet bar
+a0170,s0050,j002,2026-05-14,0,Did not meet bar
+a0171,s0096,j029,2026-01-29,1,"Strong fit, proceeding to interview"
+a0172,s0090,j033,2026-03-30,1,"Strong fit, proceeding to interview"
+a0173,s0082,j004,2026-04-12,1,"Borderline, escalated for review"
+a0174,s0117,j039,2026-02-17,0,"Borderline, escalated for review"
+a0175,s0071,j007,2026-04-02,0,Did not meet bar
+a0176,s0051,j003,2026-04-11,0,"Borderline, escalated for review"
+a0177,s0116,j014,2026-02-21,0,Did not meet bar
+a0178,s0137,j019,2026-02-14,1,"Strong fit, proceeding to interview"
+a0179,s0084,j036,2026-01-26,0,Did not meet bar
+a0180,s0143,j029,2026-05-15,1,"Strong fit, proceeding to interview"
+a0181,s0000,j000,2026-02-06,0,"Borderline, escalated for review"
+a0182,s0143,j012,2026-04-02,0,Did not meet bar
+a0183,s0023,j006,2026-02-13,0,Did not meet bar
+a0184,s0090,j036,2026-03-06,0,Did not meet bar
+a0185,s0110,j028,2026-03-08,0,Did not meet bar
+a0186,s0061,j002,2026-01-03,0,"Borderline, escalated for review"
+a0187,s0126,j022,2026-03-02,0,Did not meet bar
+a0188,s0038,j013,2026-04-16,1,"Strong fit, proceeding to interview"
+a0189,s0017,j003,2026-03-26,1,"Strong fit, proceeding to interview"
+a0190,s0143,j024,2026-05-10,0,Did not meet bar
+a0191,s0010,j013,2026-03-18,0,Did not meet bar
+a0192,s0031,j013,2026-02-28,1,"Strong fit, proceeding to interview"
+a0193,s0094,j008,2026-05-01,0,"Borderline, escalated for review"
+a0194,s0092,j000,2026-03-19,0,Did not meet bar
+a0195,s0138,j018,2026-04-08,0,Did not meet bar
+a0196,s0144,j000,2026-04-20,0,Did not meet bar
+a0197,s0127,j014,2026-05-11,0,Did not meet bar
+a0198,s0145,j028,2026-05-08,0,"Borderline, escalated for review"
+a0199,s0084,j019,2026-02-27,0,Did not meet bar
+a0200,s0049,j006,2026-04-25,0,Did not meet bar
+a0201,s0047,j004,2026-02-15,0,Did not meet bar
+a0202,s0131,j030,2026-04-02,1,"Strong fit, proceeding to interview"
+a0203,s0070,j021,2026-02-16,0,Did not meet bar
+a0204,s0013,j000,2026-05-22,1,"Strong fit, proceeding to interview"
+a0205,s0021,j027,2026-03-29,0,Did not meet bar
+a0206,s0095,j019,2026-01-12,1,"Strong fit, proceeding to interview"
+a0207,s0140,j031,2026-04-19,0,Did not meet bar
+a0208,s0074,j032,2026-05-24,1,"Strong fit, proceeding to interview"
+a0209,s0069,j018,2026-03-05,0,Did not meet bar
+a0210,s0111,j020,2026-01-12,0,Did not meet bar
+a0211,s0054,j017,2026-03-03,1,"Strong fit, proceeding to interview"
+a0212,s0129,j027,2026-02-21,0,Did not meet bar
+a0213,s0002,j031,2026-01-22,1,"Borderline, escalated for review"
+a0214,s0051,j026,2026-02-09,0,Did not meet bar
+a0215,s0103,j033,2026-02-07,0,Did not meet bar
+a0216,s0045,j038,2026-02-10,1,"Strong fit, proceeding to interview"
+a0217,s0126,j036,2026-02-11,0,Did not meet bar
+a0218,s0034,j027,2026-02-26,0,Did not meet bar
+a0219,s0082,j011,2026-04-19,1,"Strong fit, proceeding to interview"
+a0220,s0090,j027,2026-03-21,0,Did not meet bar
+a0221,s0076,j018,2026-04-08,0,"Borderline, escalated for review"
+a0222,s0130,j037,2026-02-13,0,Did not meet bar
+a0223,s0102,j010,2026-04-07,0,Did not meet bar
+a0224,s0014,j003,2026-02-05,0,"Borderline, escalated for review"
+a0225,s0083,j020,2026-04-28,1,"Strong fit, proceeding to interview"
+a0226,s0086,j030,2026-01-11,1,"Strong fit, proceeding to interview"
+a0227,s0087,j033,2026-04-13,0,Did not meet bar
+a0228,s0147,j020,2026-05-02,0,Did not meet bar
+a0229,s0108,j034,2026-04-28,1,"Strong fit, proceeding to interview"
+a0230,s0000,j024,2026-03-02,0,Did not meet bar
+a0231,s0080,j032,2026-05-20,0,Did not meet bar
+a0232,s0022,j032,2026-04-03,0,Did not meet bar
+a0233,s0063,j012,2026-02-16,1,"Strong fit, proceeding to interview"
+a0234,s0046,j021,2026-04-04,0,Did not meet bar
+a0235,s0100,j035,2026-01-22,0,Did not meet bar
+a0236,s0109,j039,2026-03-17,0,Did not meet bar
+a0237,s0101,j009,2026-02-10,0,Did not meet bar
+a0238,s0012,j038,2026-02-20,0,Did not meet bar
+a0239,s0099,j019,2026-05-24,1,"Strong fit, proceeding to interview"
+a0240,s0082,j007,2026-01-05,1,"Strong fit, proceeding to interview"
+a0241,s0060,j037,2026-05-20,0,"Borderline, escalated for review"
+a0242,s0115,j010,2026-01-04,1,"Strong fit, proceeding to interview"
+a0243,s0049,j023,2026-03-08,1,"Strong fit, proceeding to interview"
+a0244,s0100,j013,2026-03-13,0,"Borderline, escalated for review"
+a0245,s0127,j036,2026-05-22,0,Did not meet bar
+a0246,s0139,j027,2026-02-12,0,Did not meet bar
+a0247,s0102,j011,2026-02-10,0,Did not meet bar
+a0248,s0094,j021,2026-01-06,0,Did not meet bar
+a0249,s0117,j000,2026-04-23,0,"Borderline, escalated for review"
+a0250,s0048,j017,2026-03-06,1,"Strong fit, proceeding to interview"
+a0251,s0141,j019,2026-01-10,1,"Strong fit, proceeding to interview"
+a0252,s0047,j021,2026-02-17,0,Did not meet bar
+a0253,s0025,j019,2026-04-30,1,"Strong fit, proceeding to interview"
+a0254,s0002,j024,2026-04-01,1,"Strong fit, proceeding to interview"
+a0255,s0000,j022,2026-02-01,0,Did not meet bar
+a0256,s0069,j030,2026-04-09,0,Did not meet bar
+a0257,s0061,j011,2026-01-04,0,Did not meet bar
+a0258,s0121,j013,2026-04-27,0,"Borderline, escalated for review"
+a0259,s0093,j023,2026-01-22,0,Did not meet bar
+a0260,s0030,j007,2026-05-06,1,"Strong fit, proceeding to interview"
+a0261,s0143,j005,2026-05-10,1,"Borderline, escalated for review"
+a0262,s0027,j001,2026-05-08,0,Did not meet bar
+a0263,s0116,j021,2026-03-18,0,Did not meet bar
+a0264,s0094,j027,2026-03-13,1,"Strong fit, proceeding to interview"
+a0265,s0045,j012,2026-04-28,0,Did not meet bar
+a0266,s0068,j005,2026-02-23,1,"Strong fit, proceeding to interview"
+a0267,s0136,j006,2026-05-28,0,Did not meet bar
+a0268,s0010,j014,2026-02-12,1,"Strong fit, proceeding to interview"
+a0269,s0096,j000,2026-03-06,0,Did not meet bar
+a0270,s0015,j033,2026-01-20,0,Did not meet bar
+a0271,s0049,j017,2026-05-02,0,"Borderline, escalated for review"
+a0272,s0085,j029,2026-02-26,0,"Borderline, escalated for review"
+a0273,s0114,j031,2026-02-14,0,Did not meet bar
+a0274,s0111,j001,2026-01-03,0,Did not meet bar
+a0275,s0032,j003,2026-03-31,0,Did not meet bar
+a0276,s0126,j027,2026-01-21,0,Did not meet bar
+a0277,s0021,j023,2026-02-13,0,Did not meet bar
+a0278,s0046,j020,2026-05-11,0,"Borderline, escalated for review"
+a0279,s0143,j022,2026-02-19,0,Did not meet bar
+a0280,s0078,j033,2026-02-10,1,"Strong fit, proceeding to interview"
+a0281,s0016,j014,2026-05-20,1,"Strong fit, proceeding to interview"
+a0282,s0098,j004,2026-01-10,1,"Borderline, escalated for review"
+a0283,s0029,j013,2026-01-03,1,"Borderline, escalated for review"
+a0284,s0021,j026,2026-03-31,0,"Borderline, escalated for review"
+a0285,s0088,j003,2026-05-08,1,"Strong fit, proceeding to interview"
+a0286,s0008,j021,2026-04-21,0,Did not meet bar
+a0287,s0069,j017,2026-05-23,0,Did not meet bar
+a0288,s0042,j019,2026-04-02,1,"Strong fit, proceeding to interview"
+a0289,s0140,j024,2026-03-29,0,Did not meet bar
+a0290,s0103,j031,2026-01-28,0,Did not meet bar
+a0291,s0068,j026,2026-03-13,0,Did not meet bar
+a0292,s0100,j022,2026-03-06,0,Did not meet bar
+a0293,s0039,j033,2026-01-09,0,Did not meet bar
+a0294,s0070,j032,2026-04-28,0,Did not meet bar
+a0295,s0137,j003,2026-04-08,1,"Strong fit, proceeding to interview"
+a0296,s0009,j018,2026-05-27,1,"Strong fit, proceeding to interview"
+a0297,s0054,j029,2026-03-08,1,"Strong fit, proceeding to interview"
+a0298,s0080,j006,2026-02-21,0,Did not meet bar
+a0299,s0139,j018,2026-04-26,0,Did not meet bar
+a0300,s0107,j013,2026-01-23,0,Did not meet bar
+a0301,s0030,j031,2026-01-17,1,"Strong fit, proceeding to interview"
+a0302,s0023,j007,2026-01-26,0,Did not meet bar
+a0303,s0099,j015,2026-04-30,1,"Strong fit, proceeding to interview"
+a0304,s0046,j035,2026-05-04,0,Did not meet bar
+a0305,s0006,j021,2026-03-07,0,"Borderline, escalated for review"
+a0306,s0088,j009,2026-02-25,1,"Strong fit, proceeding to interview"
+a0307,s0046,j030,2026-01-31,0,Did not meet bar
+a0308,s0114,j000,2026-03-20,0,Did not meet bar
+a0309,s0137,j032,2026-03-21,1,"Strong fit, proceeding to interview"
+a0310,s0114,j022,2026-02-22,0,"Borderline, escalated for review"
+a0311,s0050,j034,2026-05-05,0,"Borderline, escalated for review"
+a0312,s0003,j010,2026-04-04,0,Did not meet bar
+a0313,s0101,j025,2026-01-25,0,Did not meet bar
+a0314,s0026,j001,2026-05-10,1,"Strong fit, proceeding to interview"
+a0315,s0030,j032,2026-03-29,1,"Strong fit, proceeding to interview"
+a0316,s0147,j026,2026-01-16,0,Did not meet bar
+a0317,s0140,j009,2026-03-23,0,Did not meet bar
+a0318,s0147,j012,2026-03-29,0,Did not meet bar
+a0319,s0105,j006,2026-05-09,0,"Borderline, escalated for review"
+a0320,s0085,j022,2026-04-10,0,Did not meet bar
+a0321,s0127,j011,2026-03-04,0,"Borderline, escalated for review"
+a0322,s0087,j039,2026-05-14,0,Did not meet bar
+a0323,s0048,j018,2026-05-28,1,"Strong fit, proceeding to interview"
+a0324,s0091,j008,2026-01-20,0,"Borderline, escalated for review"
+a0325,s0041,j031,2026-01-16,1,"Strong fit, proceeding to interview"
+a0326,s0043,j015,2026-04-27,1,"Borderline, escalated for review"
+a0327,s0067,j004,2026-04-08,1,"Borderline, escalated for review"
+a0328,s0005,j019,2026-01-21,1,"Borderline, escalated for review"
+a0329,s0082,j007,2026-05-15,0,"Borderline, escalated for review"
+a0330,s0059,j002,2026-01-26,0,"Borderline, escalated for review"
+a0331,s0027,j013,2026-04-18,0,Did not meet bar
+a0332,s0101,j013,2026-01-01,0,Did not meet bar
+a0333,s0070,j032,2026-05-24,0,"Borderline, escalated for review"
+a0334,s0038,j034,2026-02-19,1,"Strong fit, proceeding to interview"
+a0335,s0144,j008,2026-01-13,1,"Strong fit, proceeding to interview"
+a0336,s0099,j018,2026-04-13,1,"Strong fit, proceeding to interview"
+a0337,s0076,j010,2026-05-17,0,Did not meet bar
+a0338,s0054,j022,2026-05-05,0,Did not meet bar
+a0339,s0004,j030,2026-05-01,1,"Strong fit, proceeding to interview"
+a0340,s0047,j032,2026-04-14,1,"Strong fit, proceeding to interview"
+a0341,s0059,j034,2026-03-24,0,Did not meet bar
+a0342,s0002,j003,2026-01-20,1,"Strong fit, proceeding to interview"
+a0343,s0046,j024,2026-02-06,0,"Borderline, escalated for review"
+a0344,s0073,j029,2026-04-24,0,Did not meet bar
+a0345,s0038,j010,2026-04-14,1,"Strong fit, proceeding to interview"
+a0346,s0085,j035,2026-04-01,0,Did not meet bar
+a0347,s0087,j037,2026-04-09,0,Did not meet bar
+a0348,s0008,j022,2026-04-03,0,Did not meet bar
+a0349,s0138,j023,2026-04-20,1,"Borderline, escalated for review"
+a0350,s0102,j011,2026-04-27,0,Did not meet bar
+a0351,s0025,j027,2026-04-12,0,Did not meet bar
+a0352,s0052,j034,2026-02-20,1,"Strong fit, proceeding to interview"
+a0353,s0114,j034,2026-03-03,0,"Borderline, escalated for review"
+a0354,s0125,j003,2026-03-16,1,"Strong fit, proceeding to interview"
+a0355,s0028,j000,2026-04-14,1,"Strong fit, proceeding to interview"
+a0356,s0143,j027,2026-05-04,1,"Strong fit, proceeding to interview"
+a0357,s0088,j028,2026-04-09,0,Did not meet bar
+a0358,s0035,j013,2026-01-12,0,Did not meet bar
+a0359,s0096,j005,2026-02-26,1,"Strong fit, proceeding to interview"
+a0360,s0009,j035,2026-04-16,1,"Borderline, escalated for review"
+a0361,s0143,j035,2026-02-02,0,Did not meet bar
+a0362,s0025,j021,2026-05-25,0,Did not meet bar
+a0363,s0136,j002,2026-01-07,0,Did not meet bar
+a0364,s0094,j008,2026-03-12,1,"Strong fit, proceeding to interview"
+a0365,s0038,j038,2026-01-05,1,"Strong fit, proceeding to interview"
+a0366,s0113,j000,2026-03-12,0,"Borderline, escalated for review"
+a0367,s0056,j023,2026-01-20,1,"Strong fit, proceeding to interview"
+a0368,s0016,j037,2026-01-12,0,Did not meet bar
+a0369,s0046,j031,2026-03-13,0,Did not meet bar
+a0370,s0007,j024,2026-02-02,1,"Strong fit, proceeding to interview"
+a0371,s0058,j023,2026-04-28,0,Did not meet bar
+a0372,s0140,j012,2026-04-22,0,Did not meet bar
+a0373,s0126,j021,2026-01-13,0,Did not meet bar
+a0374,s0006,j017,2026-04-15,0,Did not meet bar
+a0375,s0096,j012,2026-01-18,1,"Strong fit, proceeding to interview"
+a0376,s0008,j024,2026-04-16,1,"Strong fit, proceeding to interview"
+a0377,s0050,j030,2026-04-30,1,"Borderline, escalated for review"
+a0378,s0062,j008,2026-04-26,1,"Strong fit, proceeding to interview"
+a0379,s0090,j002,2026-05-25,1,"Strong fit, proceeding to interview"
+a0380,s0128,j015,2026-04-07,0,Did not meet bar
+a0381,s0124,j021,2026-04-27,0,Did not meet bar
+a0382,s0065,j031,2026-05-04,0,Did not meet bar
+a0383,s0108,j029,2026-03-26,1,"Borderline, escalated for review"
+a0384,s0053,j035,2026-01-18,1,"Strong fit, proceeding to interview"
+a0385,s0034,j022,2026-02-07,0,Did not meet bar
+a0386,s0044,j018,2026-03-27,1,"Strong fit, proceeding to interview"
+a0387,s0068,j007,2026-04-09,0,Did not meet bar
+a0388,s0142,j018,2026-05-14,0,"Borderline, escalated for review"
+a0389,s0108,j032,2026-02-09,1,"Strong fit, proceeding to interview"
+a0390,s0057,j035,2026-02-05,1,"Strong fit, proceeding to interview"
+a0391,s0101,j007,2026-03-10,0,Did not meet bar
+a0392,s0105,j002,2026-03-05,1,"Strong fit, proceeding to interview"
+a0393,s0148,j028,2026-02-16,0,Did not meet bar
+a0394,s0114,j014,2026-02-03,0,Did not meet bar
+a0395,s0044,j015,2026-04-26,1,"Strong fit, proceeding to interview"
+a0396,s0089,j036,2026-04-21,1,"Strong fit, proceeding to interview"
+a0397,s0055,j004,2026-05-30,0,Did not meet bar
+a0398,s0129,j012,2026-01-03,0,Did not meet bar
+a0399,s0090,j019,2026-03-17,1,"Borderline, escalated for review"
+a0400,s0142,j021,2026-03-27,0,Did not meet bar
+a0401,s0119,j009,2026-02-26,0,Did not meet bar
+a0402,s0100,j027,2026-03-11,0,"Borderline, escalated for review"
+a0403,s0144,j002,2026-03-27,1,"Strong fit, proceeding to interview"
+a0404,s0104,j018,2026-03-18,0,"Borderline, escalated for review"
+a0405,s0124,j024,2026-01-18,0,Did not meet bar
+a0406,s0015,j035,2026-05-28,0,Did not meet bar
+a0407,s0081,j001,2026-04-28,1,"Strong fit, proceeding to interview"
+a0408,s0082,j003,2026-03-23,1,"Strong fit, proceeding to interview"
+a0409,s0049,j026,2026-01-09,0,"Borderline, escalated for review"
+a0410,s0082,j034,2026-03-19,1,"Borderline, escalated for review"
+a0411,s0089,j022,2026-01-20,0,"Borderline, escalated for review"
+a0412,s0057,j012,2026-03-27,0,Did not meet bar
+a0413,s0024,j014,2026-01-27,0,Did not meet bar
+a0414,s0042,j016,2026-02-25,0,"Borderline, escalated for review"
+a0415,s0011,j013,2026-05-17,0,Did not meet bar
+a0416,s0091,j028,2026-04-23,0,Did not meet bar
+a0417,s0029,j001,2026-05-30,1,"Strong fit, proceeding to interview"
+a0418,s0100,j000,2026-03-07,1,"Strong fit, proceeding to interview"
+a0419,s0030,j039,2026-03-06,1,"Borderline, escalated for review"
+a0420,s0080,j029,2026-05-21,1,"Strong fit, proceeding to interview"
+a0421,s0035,j013,2026-03-27,0,"Borderline, escalated for review"
+a0422,s0067,j003,2026-05-19,1,"Strong fit, proceeding to interview"
+a0423,s0131,j006,2026-02-19,1,"Strong fit, proceeding to interview"
+a0424,s0043,j039,2026-02-20,0,Did not meet bar
+a0425,s0070,j009,2026-01-08,0,Did not meet bar
+a0426,s0008,j026,2026-04-09,0,Did not meet bar
+a0427,s0038,j030,2026-01-11,1,"Strong fit, proceeding to interview"
+a0428,s0053,j029,2026-05-22,1,"Strong fit, proceeding to interview"
+a0429,s0054,j025,2026-05-01,0,Did not meet bar
+a0430,s0117,j034,2026-01-08,0,Did not meet bar
+a0431,s0149,j038,2026-04-03,0,"Borderline, escalated for review"
+a0432,s0135,j008,2026-01-04,1,"Strong fit, proceeding to interview"
+a0433,s0104,j037,2026-01-21,0,Did not meet bar
+a0434,s0144,j005,2026-05-13,1,"Strong fit, proceeding to interview"
+a0435,s0065,j004,2026-05-27,0,Did not meet bar
+a0436,s0007,j004,2026-03-13,0,Did not meet bar
+a0437,s0102,j034,2026-05-23,0,Did not meet bar
+a0438,s0124,j016,2026-03-11,0,"Borderline, escalated for review"
+a0439,s0096,j032,2026-01-09,0,Did not meet bar
+a0440,s0122,j027,2026-03-18,0,Did not meet bar
+a0441,s0067,j001,2026-01-01,1,"Strong fit, proceeding to interview"
+a0442,s0043,j034,2026-02-14,1,"Strong fit, proceeding to interview"
+a0443,s0131,j016,2026-02-19,0,"Borderline, escalated for review"
+a0444,s0053,j027,2026-04-14,0,Did not meet bar
+a0445,s0148,j016,2026-01-24,0,Did not meet bar
+a0446,s0012,j039,2026-04-20,1,"Strong fit, proceeding to interview"
+a0447,s0044,j001,2026-05-18,0,"Borderline, escalated for review"
+a0448,s0068,j011,2026-05-07,0,Did not meet bar
+a0449,s0068,j032,2026-01-15,1,"Strong fit, proceeding to interview"
+a0450,s0017,j027,2026-01-01,1,"Strong fit, proceeding to interview"
+a0451,s0146,j039,2026-02-21,1,"Borderline, escalated for review"
+a0452,s0083,j031,2026-05-26,1,"Strong fit, proceeding to interview"
+a0453,s0000,j001,2026-04-15,0,Did not meet bar
+a0454,s0071,j017,2026-02-03,0,Did not meet bar
+a0455,s0149,j033,2026-04-17,1,"Strong fit, proceeding to interview"
+a0456,s0047,j038,2026-02-28,1,"Strong fit, proceeding to interview"
+a0457,s0119,j006,2026-04-10,0,Did not meet bar
+a0458,s0131,j010,2026-04-28,1,"Strong fit, proceeding to interview"
+a0459,s0014,j034,2026-05-06,1,"Strong fit, proceeding to interview"
+a0460,s0087,j028,2026-03-12,0,Did not meet bar
+a0461,s0105,j028,2026-01-23,1,"Borderline, escalated for review"
+a0462,s0147,j018,2026-05-07,0,Did not meet bar
+a0463,s0093,j012,2026-03-01,0,Did not meet bar
+a0464,s0104,j011,2026-02-21,0,Did not meet bar
+a0465,s0044,j009,2026-03-31,1,"Strong fit, proceeding to interview"
+a0466,s0129,j003,2026-03-22,0,Did not meet bar
+a0467,s0071,j028,2026-03-08,0,Did not meet bar
+a0468,s0056,j001,2026-05-09,1,"Strong fit, proceeding to interview"
+a0469,s0043,j024,2026-02-16,1,"Strong fit, proceeding to interview"
+a0470,s0122,j038,2026-05-03,0,"Borderline, escalated for review"
+a0471,s0007,j038,2026-02-22,0,Did not meet bar
+a0472,s0136,j000,2026-05-25,1,"Strong fit, proceeding to interview"
+a0473,s0050,j016,2026-01-27,0,Did not meet bar
+a0474,s0104,j007,2026-04-05,0,"Borderline, escalated for review"
+a0475,s0079,j032,2026-04-03,0,"Borderline, escalated for review"
+a0476,s0024,j002,2026-02-14,0,Did not meet bar
+a0477,s0127,j001,2026-05-18,0,Did not meet bar
+a0478,s0013,j016,2026-03-09,0,"Borderline, escalated for review"
+a0479,s0117,j022,2026-01-09,0,Did not meet bar
+a0480,s0014,j014,2026-03-12,0,"Borderline, escalated for review"
+a0481,s0146,j023,2026-01-05,1,"Strong fit, proceeding to interview"
+a0482,s0093,j032,2026-03-01,0,Did not meet bar
+a0483,s0068,j007,2026-02-01,1,"Strong fit, proceeding to interview"
+a0484,s0107,j029,2026-04-24,1,"Strong fit, proceeding to interview"
+a0485,s0037,j032,2026-01-13,0,Did not meet bar
+a0486,s0115,j010,2026-02-25,1,"Strong fit, proceeding to interview"
+a0487,s0109,j025,2026-04-18,0,"Borderline, escalated for review"
+a0488,s0074,j029,2026-02-17,1,"Strong fit, proceeding to interview"
+a0489,s0095,j028,2026-04-07,0,"Borderline, escalated for review"
+a0490,s0088,j009,2026-05-07,0,Did not meet bar
+a0491,s0008,j032,2026-04-14,1,"Strong fit, proceeding to interview"
+a0492,s0009,j014,2026-01-07,1,"Borderline, escalated for review"
+a0493,s0093,j022,2026-01-23,0,Did not meet bar
+a0494,s0141,j022,2026-04-07,1,"Strong fit, proceeding to interview"
+a0495,s0080,j012,2026-02-04,1,"Borderline, escalated for review"
+a0496,s0046,j023,2026-05-08,0,Did not meet bar
+a0497,s0089,j034,2026-03-28,1,"Strong fit, proceeding to interview"
+a0498,s0132,j012,2026-03-11,0,Did not meet bar
+a0499,s0059,j029,2026-04-22,1,"Strong fit, proceeding to interview"

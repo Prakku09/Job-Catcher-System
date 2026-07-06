@@ -1,0 +1,501 @@
+application_id,student_id,job_id,application_date,is_good_match,name,education_level,years_experience,location_student,python_score,sql_score,ml_score,javascript_score,data_structures_score,statistics_score,exam_time_seconds,self_reported_confidence,retake_count,expected_salary_inr,company,title,location_job,exp_required_years,salary_offered_inr,python_required,sql_required,ml_required,javascript_required,data_structures_required,statistics_required,edu_minimum
+a0000,s0053,j031,2026-04-13,1,Vihaan Iyer,UG,2,Pune,50.2,66.1,75.5,87.3,,75.2,2761,3,2,786605,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0001,s0046,j008,2026-04-29,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0002,s0131,j020,2026-03-05,1,Pari Sharma,UG,2,Pune,94.1,81.7,54.7,66.4,90.9,69.0,2202,3,0,711595,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0003,s0055,j013,2026-04-07,0,Anika Bhatt,PG,0,Mumbai,46.7,1.4,38.6,60.8,81.4,35.3,2705,4,1,860026,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0004,s0074,j018,2026-03-02,0,Karthik Mehta,PhD,4,Bengaluru,70.9,74.1,60.4,74.4,100.0,63.6,2529,3,0,479056,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0005,s0145,j001,2026-05-27,0,Aman Gupta,UG,4,Bengaluru,34.5,45.6,44.9,62.8,44.2,59.7,2217,3,0,1302059,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0006,s0050,j023,2026-02-20,1,Neha Agarwal,UG,0,Hyderabad,37.8,38.1,79.2,91.4,,62.9,1943,3,0,352990,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0007,s0084,j016,2026-05-28,0,Sneha Joshi,UG,0,Hyderabad,37.3,53.2,59.1,71.9,69.6,76.0,3175,5,0,904864,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0008,s0011,j003,2026-04-18,1,Anika Pillai,PG,2,Chennai,57.7,59.4,36.4,42.2,48.4,74.6,3439,5,0,1510377,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0009,s0113,j009,2026-05-26,1,Riya Joshi,PG,4,Delhi,20.3,29.9,52.9,40.4,29.7,43.0,2380,4,0,889239,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0010,s0140,j007,2026-03-24,0,Vihaan Banerjee,UG,2,Kolkata,40.8,28.7,61.3,20.9,43.4,49.4,2736,4,2,475548,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0011,s0003,j038,2026-01-21,0,Arjun Patel,UG,1,Kolkata,56.2,61.6,49.4,24.2,43.6,56.4,2186,4,0,828096,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0012,s0126,j010,2026-04-23,1,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0013,s0008,j016,2026-05-15,0,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0014,s0015,j017,2026-01-27,0,Siddharth Sharma,PhD,1,Bengaluru,68.4,61.5,60.9,,,30.8,1510,2,0,1162301,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0015,s0022,j012,2026-02-10,1,Arjun Rao,UG,2,Mumbai,86.9,53.3,53.5,80.3,75.9,77.3,1408,3,1,1184410,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0016,s0101,j029,2026-05-08,0,Aadhya Joshi,UG,3,Bengaluru,42.6,65.9,45.1,25.4,39.4,47.0,2292,4,0,654970,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0017,s0117,j022,2026-04-14,0,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0018,s0002,j028,2026-03-07,1,Krishna Das,UG,1,Bengaluru,88.4,92.4,94.3,96.1,67.8,92.8,2143,4,0,791728,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0019,s0126,j036,2026-02-10,0,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0020,s0055,j007,2026-01-31,0,Anika Bhatt,PG,0,Mumbai,46.7,1.4,38.6,60.8,81.4,35.3,2705,4,1,860026,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0021,s0110,j015,2026-05-01,0,Karthik Agarwal,PG,0,Chennai,28.6,29.2,49.7,54.4,47.7,31.8,2652,4,0,676620,Quantara,QA Engineer,Delhi,1.2,1071473,45.9,58.0,,,95.0,49.3,PG
+a0022,s0116,j014,2026-01-17,0,Ayaan Verma,UG,2,Ahmedabad,38.2,22.9,42.2,25.1,28.8,35.7,2691,4,0,1398245,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0023,s0087,j033,2026-03-28,0,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0024,s0012,j025,2026-03-07,1,Kiara Chatterjee,PG,1,Kolkata,38.0,55.3,73.7,39.6,69.4,35.5,1670,3,0,671690,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0025,s0055,j007,2026-03-03,0,Anika Bhatt,PG,0,Mumbai,46.7,1.4,38.6,60.8,81.4,35.3,2705,4,1,860026,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0026,s0018,j028,2026-03-09,1,Krishna Patel,UG,4,Bengaluru,64.0,68.6,81.9,84.0,64.6,66.3,2799,4,0,799812,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0027,s0145,j025,2026-01-06,0,Aman Gupta,UG,4,Bengaluru,34.5,45.6,44.9,62.8,44.2,59.7,2217,3,0,1302059,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0028,s0115,j011,2026-04-16,0,Nikhil Gupta,UG,1,Chennai,96.8,65.1,83.7,75.7,90.9,97.4,1173,3,0,1040674,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0029,s0036,j031,2026-05-12,0,Arjun Kumar,UG,0,Mumbai,84.8,93.1,63.4,22.8,75.7,90.5,3745,4,1,945859,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0030,s0095,j020,2026-02-19,1,Navya Joshi,PhD,0,Bengaluru,62.0,82.4,66.7,60.1,90.3,34.3,3139,4,0,1253033,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0031,s0110,j026,2026-02-12,0,Karthik Agarwal,PG,0,Chennai,28.6,29.2,49.7,54.4,47.7,31.8,2652,4,0,676620,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0032,s0036,j032,2026-03-05,0,Arjun Kumar,UG,0,Mumbai,84.8,93.1,63.4,22.8,75.7,90.5,3745,4,1,945859,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0033,s0043,j022,2026-05-09,0,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0034,s0106,j008,2026-05-14,1,Aman Mukherjee,PG,5,Kolkata,79.3,84.5,71.1,87.9,89.0,73.6,2053,3,0,862012,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0035,s0117,j009,2026-05-27,1,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0036,s0042,j017,2026-05-02,0,Krishna Chatterjee,PG,1,Bengaluru,70.6,76.0,58.4,37.8,77.8,43.5,2461,4,0,773555,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0037,s0120,j009,2026-03-06,0,Priya Patel,UG,1,Mumbai,55.8,55.7,,37.2,49.0,37.5,2651,3,0,628233,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0038,s0139,j014,2026-03-07,0,Krishna Mukherjee,UG,1,Ahmedabad,61.8,31.4,51.9,47.7,73.6,65.1,2831,4,1,1570402,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0039,s0127,j005,2026-03-27,0,Sneha Agarwal,UG,0,Ahmedabad,69.2,61.8,51.3,29.4,49.5,31.6,2191,4,1,386107,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG
+a0040,s0024,j030,2026-03-04,0,Myra Sharma,UG,1,Pune,75.9,16.2,32.3,38.6,66.9,43.3,1361,4,1,839039,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0041,s0063,j018,2026-03-23,1,Arjun Kapoor,UG,1,Mumbai,69.7,85.2,64.6,90.8,67.2,91.2,2534,4,0,655461,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0042,s0149,j012,2026-02-07,0,Krishna Verma,PhD,1,Ahmedabad,64.6,,85.6,44.3,92.0,37.5,2210,3,0,1038310,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0043,s0091,j004,2026-04-01,0,Vihaan Das,UG,1,Kolkata,8.0,17.6,14.0,0.8,3.8,0.0,1867,3,0,835845,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0044,s0117,j026,2026-05-13,0,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0045,s0056,j009,2026-04-22,1,Sai Agarwal,PG,5,Hyderabad,69.8,70.1,49.6,90.8,74.1,57.5,3423,4,0,940104,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0046,s0053,j035,2026-01-03,1,Vihaan Iyer,UG,2,Pune,50.2,66.1,75.5,87.3,,75.2,2761,3,2,786605,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0047,s0043,j018,2026-04-27,0,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0048,s0135,j006,2026-03-01,0,Kiara Sharma,UG,1,Ahmedabad,81.2,84.7,87.8,86.8,100.0,85.9,1689,4,0,1224399,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0049,s0092,j026,2026-01-17,0,Priya Rao,UG,1,Pune,44.8,46.6,63.7,54.4,52.3,26.0,2231,5,0,935327,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0050,s0024,j021,2026-02-01,0,Myra Sharma,UG,1,Pune,75.9,16.2,32.3,38.6,66.9,43.3,1361,4,1,839039,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0051,s0139,j024,2026-03-04,1,Krishna Mukherjee,UG,1,Ahmedabad,61.8,31.4,51.9,47.7,73.6,65.1,2831,4,1,1570402,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0052,s0037,j003,2026-03-14,0,Ayaan Joshi,PG,2,Hyderabad,32.1,31.4,36.8,46.2,43.5,42.6,2624,4,0,1015864,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0053,s0099,j037,2026-03-18,1,Sai Mukherjee,UG,3,Kolkata,96.7,80.9,76.8,94.5,87.1,78.1,3107,3,1,1189510,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0054,s0016,j008,2026-03-24,0,Divya Bhatt,PG,4,Kolkata,65.7,45.1,45.9,71.1,49.1,42.4,2036,3,1,1049761,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0055,s0099,j011,2026-04-07,1,Sai Mukherjee,UG,3,Kolkata,96.7,80.9,76.8,94.5,87.1,78.1,3107,3,1,1189510,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0056,s0091,j001,2026-03-15,0,Vihaan Das,UG,1,Kolkata,8.0,17.6,14.0,0.8,3.8,0.0,1867,3,0,835845,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0057,s0053,j020,2026-01-13,1,Vihaan Iyer,UG,2,Pune,50.2,66.1,75.5,87.3,,75.2,2761,3,2,786605,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0058,s0116,j003,2026-02-02,1,Ayaan Verma,UG,2,Ahmedabad,38.2,22.9,42.2,25.1,28.8,35.7,2691,4,0,1398245,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0059,s0042,j007,2026-05-26,1,Krishna Chatterjee,PG,1,Bengaluru,70.6,76.0,58.4,37.8,77.8,43.5,2461,4,0,773555,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0060,s0122,j019,2026-03-10,0,Krishna Rao,UG,0,Mumbai,22.1,40.9,51.9,56.8,59.1,50.1,2687,4,0,708079,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0061,s0028,j039,2026-01-03,0,Ayaan Bhatt,UG,0,Kolkata,60.5,,61.0,80.2,39.3,85.7,2176,3,0,795257,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0062,s0016,j026,2026-03-08,0,Divya Bhatt,PG,4,Kolkata,65.7,45.1,45.9,71.1,49.1,42.4,2036,3,1,1049761,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0063,s0017,j007,2026-05-07,1,Priya Reddy,UG,2,Chennai,72.5,99.4,99.7,85.6,75.6,82.5,1446,2,0,739463,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0064,s0141,j038,2026-03-12,0,Ishaan Mehta,UG,4,Kolkata,41.7,59.3,52.8,57.8,77.8,79.2,2233,4,0,848524,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0065,s0008,j005,2026-04-20,1,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG
+a0066,s0059,j031,2026-01-31,1,Diya Kumar,PG,0,Kolkata,98.8,100.0,81.0,64.1,74.7,83.2,2885,3,1,614198,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0067,s0138,j011,2026-03-18,1,Siddharth Joshi,PG,3,Delhi,,40.0,59.7,48.4,45.3,74.1,1844,5,0,1154405,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0068,s0132,j008,2026-05-30,1,Divya Sharma,UG,3,Chennai,64.2,74.9,48.1,91.3,58.8,52.6,3057,4,0,1113759,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0069,s0143,j006,2026-03-24,0,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0070,s0006,j035,2026-02-14,0,Divya Singh,UG,0,Pune,40.0,43.1,47.8,30.9,46.4,62.2,2153,4,0,1437514,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0071,s0023,j031,2026-01-27,0,Karthik Agarwal,PhD,3,Hyderabad,38.3,61.4,49.9,35.2,38.5,50.9,2135,4,0,683116,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0072,s0106,j029,2026-01-07,1,Aman Mukherjee,PG,5,Kolkata,79.3,84.5,71.1,87.9,89.0,73.6,2053,3,0,862012,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0073,s0071,j008,2026-04-22,1,Divya Reddy,UG,3,Chennai,72.8,55.7,91.6,69.2,65.5,58.1,1683,3,0,1155440,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0074,s0064,j026,2026-05-04,0,Riya Nair,PhD,2,Kolkata,70.0,43.5,56.8,60.4,,63.2,1456,2,1,462829,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0075,s0135,j004,2026-05-12,1,Kiara Sharma,UG,1,Ahmedabad,81.2,84.7,87.8,86.8,100.0,85.9,1689,4,0,1224399,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0076,s0009,j015,2026-03-30,1,Diya Das,PG,6,Pune,63.4,45.6,48.3,34.2,65.3,62.4,2174,3,0,816639,Quantara,QA Engineer,Delhi,1.2,1071473,45.9,58.0,,,95.0,49.3,PG
+a0077,s0009,j011,2026-04-09,1,Diya Das,PG,6,Pune,63.4,45.6,48.3,34.2,65.3,62.4,2174,3,0,816639,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0078,s0046,j023,2026-02-17,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0079,s0136,j008,2026-01-14,0,Myra Joshi,UG,2,Bengaluru,38.9,71.8,33.8,58.5,40.6,50.3,2734,3,0,1619090,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0080,s0148,j027,2026-05-02,0,Ananya Iyer,UG,0,Ahmedabad,36.3,24.3,57.0,29.5,31.6,15.1,996,3,0,340525,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0081,s0104,j031,2026-05-13,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0082,s0036,j001,2026-03-01,0,Arjun Kumar,UG,0,Mumbai,84.8,93.1,63.4,22.8,75.7,90.5,3745,4,1,945859,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0083,s0092,j022,2026-03-08,0,Priya Rao,UG,1,Pune,44.8,46.6,63.7,54.4,52.3,26.0,2231,5,0,935327,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0084,s0013,j021,2026-04-17,0,Riya Gupta,UG,0,Pune,80.1,61.9,85.4,63.5,69.7,54.2,2308,4,1,856246,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0085,s0084,j009,2026-03-25,0,Sneha Joshi,UG,0,Hyderabad,37.3,53.2,59.1,71.9,69.6,76.0,3175,5,0,904864,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0086,s0087,j016,2026-05-19,1,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0087,s0005,j025,2026-04-01,1,Reyansh Reddy,PhD,0,Bengaluru,100.0,41.0,53.4,70.3,57.5,59.5,3460,4,0,725246,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0088,s0089,j022,2026-05-07,0,Priya Iyer,UG,4,Pune,55.0,99.2,60.4,77.2,100.0,99.5,2285,2,0,1184107,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0089,s0096,j027,2026-05-30,1,Sneha Sharma,UG,3,Bengaluru,59.2,73.9,,75.2,44.6,53.1,3535,4,0,770003,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0090,s0147,j023,2026-01-31,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0091,s0007,j003,2026-02-03,1,Diya Nair,PG,0,Delhi,85.3,71.1,85.0,100.0,85.1,72.3,1873,3,0,435762,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0092,s0001,j036,2026-05-14,1,Rohan Mehta,UG,2,Bengaluru,87.5,100.0,92.6,100.0,100.0,100.0,2440,4,0,389995,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0093,s0014,j000,2026-05-12,0,Vihaan Banerjee,UG,0,Delhi,96.3,95.8,60.8,84.4,50.6,83.6,2565,2,2,1060785,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0094,s0061,j019,2026-03-10,1,Neha Patel,PG,1,Hyderabad,54.2,59.4,68.0,51.3,47.9,48.8,2374,4,1,1919985,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0095,s0041,j000,2026-01-19,1,Kiara Sharma,PG,4,Delhi,43.9,49.0,88.8,60.6,60.0,32.6,2791,3,0,902976,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0096,s0092,j022,2026-02-25,0,Priya Rao,UG,1,Pune,44.8,46.6,63.7,54.4,52.3,26.0,2231,5,0,935327,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0097,s0052,j036,2026-04-11,0,Diya Sharma,PG,0,Ahmedabad,76.3,66.5,73.6,70.7,96.4,59.8,2642,2,0,1027587,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0098,s0024,j003,2026-03-27,0,Myra Sharma,UG,1,Pune,75.9,16.2,32.3,38.6,66.9,43.3,1361,4,1,839039,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0099,s0071,j000,2026-03-13,1,Divya Reddy,UG,3,Chennai,72.8,55.7,91.6,69.2,65.5,58.1,1683,3,0,1155440,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0100,s0035,j039,2026-03-21,0,Divya Banerjee,UG,0,Bengaluru,49.4,69.0,51.5,36.8,55.8,50.0,2445,4,1,1476587,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0101,s0046,j017,2026-04-05,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0102,s0104,j014,2026-05-12,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0103,s0145,j016,2026-04-05,1,Aman Gupta,UG,4,Bengaluru,34.5,45.6,44.9,62.8,44.2,59.7,2217,3,0,1302059,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0104,s0030,j012,2026-05-21,0,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0105,s0062,j020,2026-05-01,0,Saanvi Mukherjee,UG,0,Bengaluru,76.1,42.2,66.5,62.5,63.3,59.7,1517,4,1,1126937,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0106,s0105,j011,2026-02-12,1,Vihaan Pillai,UG,4,Bengaluru,74.2,70.6,,88.7,90.5,87.2,1429,3,0,710298,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0107,s0102,j010,2026-02-05,0,Saanvi Kumar,PG,1,Delhi,48.6,67.3,52.1,48.3,66.3,35.6,2484,2,0,1350394,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0108,s0122,j008,2026-01-13,0,Krishna Rao,UG,0,Mumbai,22.1,40.9,51.9,56.8,59.1,50.1,2687,4,0,708079,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0109,s0137,j025,2026-04-18,1,Aman Iyer,UG,2,Mumbai,94.2,100.0,99.7,88.0,100.0,88.7,2442,4,0,1413828,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0110,s0058,j017,2026-02-21,0,Ananya Gupta,UG,3,Kolkata,29.0,0.0,25.8,49.9,,40.5,2585,4,1,564200,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0111,s0133,j039,2026-02-25,1,Karthik Joshi,UG,4,Pune,76.9,77.3,64.1,40.1,71.9,78.8,2261,4,0,1362747,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0112,s0121,j031,2026-01-26,0,Vihaan Singh,UG,0,Bengaluru,57.3,41.7,34.5,64.3,52.6,58.9,2776,4,1,650781,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0113,s0028,j034,2026-05-11,0,Ayaan Bhatt,UG,0,Kolkata,60.5,,61.0,80.2,39.3,85.7,2176,3,0,795257,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0114,s0092,j010,2026-02-15,0,Priya Rao,UG,1,Pune,44.8,46.6,63.7,54.4,52.3,26.0,2231,5,0,935327,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0115,s0087,j008,2026-05-17,0,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0116,s0133,j011,2026-04-01,1,Karthik Joshi,UG,4,Pune,76.9,77.3,64.1,40.1,71.9,78.8,2261,4,0,1362747,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0117,s0054,j029,2026-01-29,1,Ananya Kumar,UG,1,Mumbai,67.6,82.0,75.9,82.4,60.7,82.5,1853,4,0,1129130,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0118,s0051,j037,2026-03-15,0,Aman Gupta,UG,2,Bengaluru,29.0,43.5,56.5,62.6,39.2,32.9,2596,3,0,861799,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0119,s0147,j022,2026-03-31,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0120,s0012,j039,2026-02-20,1,Kiara Chatterjee,PG,1,Kolkata,38.0,55.3,73.7,39.6,69.4,35.5,1670,3,0,671690,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0121,s0132,j019,2026-04-10,1,Divya Sharma,UG,3,Chennai,64.2,74.9,48.1,91.3,58.8,52.6,3057,4,0,1113759,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0122,s0092,j036,2026-04-14,0,Priya Rao,UG,1,Pune,44.8,46.6,63.7,54.4,52.3,26.0,2231,5,0,935327,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0123,s0107,j007,2026-04-16,1,Aadhya Reddy,PG,4,Ahmedabad,72.5,74.9,55.2,,50.8,61.5,2181,3,0,902522,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0124,s0119,j017,2026-04-24,0,Sai Sharma,PG,2,Pune,46.8,47.8,27.8,23.7,48.2,43.1,2647,3,0,1133946,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0125,s0064,j011,2026-02-13,0,Riya Nair,PhD,2,Kolkata,70.0,43.5,56.8,60.4,,63.2,1456,2,1,462829,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0126,s0126,j013,2026-02-25,0,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0127,s0056,j027,2026-05-12,1,Sai Agarwal,PG,5,Hyderabad,69.8,70.1,49.6,90.8,74.1,57.5,3423,4,0,940104,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0128,s0041,j012,2026-04-20,1,Kiara Sharma,PG,4,Delhi,43.9,49.0,88.8,60.6,60.0,32.6,2791,3,0,902976,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0129,s0147,j016,2026-01-04,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0130,s0121,j028,2026-02-05,0,Vihaan Singh,UG,0,Bengaluru,57.3,41.7,34.5,64.3,52.6,58.9,2776,4,1,650781,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0131,s0029,j004,2026-05-15,1,Karthik Rao,UG,5,Hyderabad,94.5,99.3,90.1,78.1,100.0,91.6,2407,4,0,1038946,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0132,s0139,j028,2026-01-27,0,Krishna Mukherjee,UG,1,Ahmedabad,61.8,31.4,51.9,47.7,73.6,65.1,2831,4,1,1570402,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0133,s0141,j019,2026-03-01,0,Ishaan Mehta,UG,4,Kolkata,41.7,59.3,52.8,57.8,77.8,79.2,2233,4,0,848524,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0134,s0128,j007,2026-04-06,0,Krishna Chatterjee,UG,2,Delhi,53.5,23.1,55.5,45.1,40.5,28.3,2230,4,1,362304,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0135,s0059,j004,2026-02-03,1,Diya Kumar,PG,0,Kolkata,98.8,100.0,81.0,64.1,74.7,83.2,2885,3,1,614198,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0136,s0098,j034,2026-01-09,1,Ishaan Das,UG,0,Delhi,90.4,100.0,90.9,100.0,100.0,85.5,1821,5,1,1238799,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0137,s0018,j022,2026-03-24,0,Krishna Patel,UG,4,Bengaluru,64.0,68.6,81.9,84.0,64.6,66.3,2799,4,0,799812,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0138,s0073,j021,2026-03-07,0,Vivaan Joshi,UG,2,Ahmedabad,45.2,23.7,50.3,27.4,35.3,33.7,1789,4,0,300000,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0139,s0034,j013,2026-05-19,0,Ishaan Agarwal,PG,3,Pune,49.8,0.0,29.8,41.5,31.4,44.2,2311,5,1,821098,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0140,s0055,j008,2026-02-26,0,Anika Bhatt,PG,0,Mumbai,46.7,1.4,38.6,60.8,81.4,35.3,2705,4,1,860026,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0141,s0030,j035,2026-02-21,1,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0142,s0002,j003,2026-03-13,1,Krishna Das,UG,1,Bengaluru,88.4,92.4,94.3,96.1,67.8,92.8,2143,4,0,791728,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0143,s0082,j012,2026-02-22,0,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0144,s0111,j022,2026-05-09,0,Ishaan Gupta,PhD,0,Kolkata,72.1,66.9,73.0,70.7,83.1,52.9,3566,5,0,543083,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0145,s0011,j026,2026-03-04,0,Anika Pillai,PG,2,Chennai,57.7,59.4,36.4,42.2,48.4,74.6,3439,5,0,1510377,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0146,s0081,j011,2026-01-03,1,Divya Iyer,UG,2,Bengaluru,74.3,70.3,81.5,59.6,84.5,80.4,2458,5,2,776966,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0147,s0008,j033,2026-02-21,1,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0148,s0021,j019,2026-04-01,0,Pari Patel,PG,2,Chennai,52.1,57.6,33.6,21.6,46.2,57.1,2304,3,0,965790,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0149,s0034,j001,2026-05-10,0,Ishaan Agarwal,PG,3,Pune,49.8,0.0,29.8,41.5,31.4,44.2,2311,5,1,821098,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0150,s0113,j011,2026-02-02,0,Riya Joshi,PG,4,Delhi,20.3,29.9,52.9,40.4,29.7,43.0,2380,4,0,889239,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0151,s0019,j017,2026-01-25,0,Anika Rao,UG,3,Delhi,,17.3,9.4,35.0,23.1,24.1,2348,4,0,1133914,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0152,s0140,j022,2026-04-23,0,Vihaan Banerjee,UG,2,Kolkata,40.8,28.7,61.3,20.9,43.4,49.4,2736,4,2,475548,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0153,s0029,j007,2026-05-21,1,Karthik Rao,UG,5,Hyderabad,94.5,99.3,90.1,78.1,100.0,91.6,2407,4,0,1038946,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0154,s0142,j028,2026-03-03,1,Vihaan Sharma,UG,0,Pune,71.7,84.7,86.0,72.9,93.5,66.2,2107,5,0,734071,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0155,s0030,j031,2026-04-04,1,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0156,s0109,j013,2026-04-07,0,Ishaan Rao,PG,1,Bengaluru,38.5,47.9,39.2,41.2,21.7,50.1,1748,3,0,1435259,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0157,s0027,j011,2026-02-02,0,Kiara Pillai,UG,0,Hyderabad,44.8,,31.1,19.6,33.3,43.5,1502,3,0,998905,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0158,s0043,j007,2026-02-19,1,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0159,s0043,j032,2026-05-12,0,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0160,s0033,j031,2026-04-17,0,Anika Iyer,UG,2,Hyderabad,46.8,48.4,62.7,57.7,63.4,55.5,1224,4,0,863802,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0161,s0104,j032,2026-03-26,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0162,s0097,j029,2026-04-27,1,Nikhil Agarwal,UG,4,Delhi,70.5,54.1,80.9,72.7,66.3,83.6,2699,2,1,300000,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0163,s0005,j004,2026-05-15,0,Reyansh Reddy,PhD,0,Bengaluru,100.0,41.0,53.4,70.3,57.5,59.5,3460,4,0,725246,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0164,s0090,j032,2026-01-16,1,Sai Kapoor,UG,0,Pune,80.7,46.1,84.6,86.3,94.4,84.6,1870,4,0,816547,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0165,s0036,j019,2026-01-01,1,Arjun Kumar,UG,0,Mumbai,84.8,93.1,63.4,22.8,75.7,90.5,3745,4,1,945859,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0166,s0044,j036,2026-03-14,0,Navya Das,UG,3,Delhi,86.3,75.8,87.2,54.2,66.2,82.8,3481,3,0,497778,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0167,s0135,j024,2026-01-19,1,Kiara Sharma,UG,1,Ahmedabad,81.2,84.7,87.8,86.8,100.0,85.9,1689,4,0,1224399,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0168,s0018,j034,2026-02-07,0,Krishna Patel,UG,4,Bengaluru,64.0,68.6,81.9,84.0,64.6,66.3,2799,4,0,799812,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0169,s0047,j001,2026-02-19,0,Reyansh Gupta,UG,3,Ahmedabad,83.2,52.5,46.2,63.8,89.8,71.2,2081,4,0,755747,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0170,s0050,j002,2026-05-14,0,Neha Agarwal,UG,0,Hyderabad,37.8,38.1,79.2,91.4,,62.9,1943,3,0,352990,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0171,s0096,j029,2026-01-29,1,Sneha Sharma,UG,3,Bengaluru,59.2,73.9,,75.2,44.6,53.1,3535,4,0,770003,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0172,s0090,j033,2026-03-30,1,Sai Kapoor,UG,0,Pune,80.7,46.1,84.6,86.3,94.4,84.6,1870,4,0,816547,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0173,s0082,j004,2026-04-12,1,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0174,s0117,j039,2026-02-17,0,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0175,s0071,j007,2026-04-02,0,Divya Reddy,UG,3,Chennai,72.8,55.7,91.6,69.2,65.5,58.1,1683,3,0,1155440,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0176,s0051,j003,2026-04-11,0,Aman Gupta,UG,2,Bengaluru,29.0,43.5,56.5,62.6,39.2,32.9,2596,3,0,861799,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0177,s0116,j014,2026-02-21,0,Ayaan Verma,UG,2,Ahmedabad,38.2,22.9,42.2,25.1,28.8,35.7,2691,4,0,1398245,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0178,s0137,j019,2026-02-14,1,Aman Iyer,UG,2,Mumbai,94.2,100.0,99.7,88.0,100.0,88.7,2442,4,0,1413828,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0179,s0084,j036,2026-01-26,0,Sneha Joshi,UG,0,Hyderabad,37.3,53.2,59.1,71.9,69.6,76.0,3175,5,0,904864,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0180,s0143,j029,2026-05-15,1,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0181,s0000,j000,2026-02-06,0,Aditya Das,UG,3,Bengaluru,24.5,19.9,32.4,16.8,35.1,24.0,2307,3,0,1086308,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0182,s0143,j012,2026-04-02,0,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0183,s0023,j006,2026-02-13,0,Karthik Agarwal,PhD,3,Hyderabad,38.3,61.4,49.9,35.2,38.5,50.9,2135,4,0,683116,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0184,s0090,j036,2026-03-06,0,Sai Kapoor,UG,0,Pune,80.7,46.1,84.6,86.3,94.4,84.6,1870,4,0,816547,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0185,s0110,j028,2026-03-08,0,Karthik Agarwal,PG,0,Chennai,28.6,29.2,49.7,54.4,47.7,31.8,2652,4,0,676620,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0186,s0061,j002,2026-01-03,0,Neha Patel,PG,1,Hyderabad,54.2,59.4,68.0,51.3,47.9,48.8,2374,4,1,1919985,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0187,s0126,j022,2026-03-02,0,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0188,s0038,j013,2026-04-16,1,Nikhil Banerjee,PhD,1,Kolkata,100.0,84.5,82.2,64.4,77.7,75.7,2627,3,0,724739,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0189,s0017,j003,2026-03-26,1,Priya Reddy,UG,2,Chennai,72.5,99.4,99.7,85.6,75.6,82.5,1446,2,0,739463,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0190,s0143,j024,2026-05-10,0,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0191,s0010,j013,2026-03-18,0,Karthik Verma,UG,1,Hyderabad,82.8,71.5,100.0,78.3,74.7,84.3,1353,4,2,992301,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0192,s0031,j013,2026-02-28,1,Aarav Das,PG,4,Chennai,55.1,,57.6,58.9,54.1,67.9,1130,2,1,858836,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0193,s0094,j008,2026-05-01,0,Anika Bhatt,PG,1,Kolkata,44.3,61.2,64.8,97.8,69.8,79.5,2421,2,0,1166752,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0194,s0092,j000,2026-03-19,0,Priya Rao,UG,1,Pune,44.8,46.6,63.7,54.4,52.3,26.0,2231,5,0,935327,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0195,s0138,j018,2026-04-08,0,Siddharth Joshi,PG,3,Delhi,,40.0,59.7,48.4,45.3,74.1,1844,5,0,1154405,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0196,s0144,j000,2026-04-20,0,Priya Nair,UG,3,Hyderabad,63.4,,84.2,81.8,70.1,100.0,1670,3,0,1523429,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0197,s0127,j014,2026-05-11,0,Sneha Agarwal,UG,0,Ahmedabad,69.2,61.8,51.3,29.4,49.5,31.6,2191,4,1,386107,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0198,s0145,j028,2026-05-08,0,Aman Gupta,UG,4,Bengaluru,34.5,45.6,44.9,62.8,44.2,59.7,2217,3,0,1302059,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0199,s0084,j019,2026-02-27,0,Sneha Joshi,UG,0,Hyderabad,37.3,53.2,59.1,71.9,69.6,76.0,3175,5,0,904864,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0200,s0049,j006,2026-04-25,0,Aadhya Bhatt,UG,1,Pune,93.7,69.8,,73.1,100.0,71.7,2554,4,2,562127,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0201,s0047,j004,2026-02-15,0,Reyansh Gupta,UG,3,Ahmedabad,83.2,52.5,46.2,63.8,89.8,71.2,2081,4,0,755747,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0202,s0131,j030,2026-04-02,1,Pari Sharma,UG,2,Pune,94.1,81.7,54.7,66.4,90.9,69.0,2202,3,0,711595,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0203,s0070,j021,2026-02-16,0,Rohan Mukherjee,UG,3,Mumbai,53.5,52.7,45.3,29.9,45.8,20.0,1729,3,0,675460,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0204,s0013,j000,2026-05-22,1,Riya Gupta,UG,0,Pune,80.1,61.9,85.4,63.5,69.7,54.2,2308,4,1,856246,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0205,s0021,j027,2026-03-29,0,Pari Patel,PG,2,Chennai,52.1,57.6,33.6,21.6,46.2,57.1,2304,3,0,965790,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0206,s0095,j019,2026-01-12,1,Navya Joshi,PhD,0,Bengaluru,62.0,82.4,66.7,60.1,90.3,34.3,3139,4,0,1253033,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0207,s0140,j031,2026-04-19,0,Vihaan Banerjee,UG,2,Kolkata,40.8,28.7,61.3,20.9,43.4,49.4,2736,4,2,475548,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0208,s0074,j032,2026-05-24,1,Karthik Mehta,PhD,4,Bengaluru,70.9,74.1,60.4,74.4,100.0,63.6,2529,3,0,479056,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0209,s0069,j018,2026-03-05,0,Kiara Kapoor,PhD,1,Mumbai,53.2,39.1,65.5,37.2,58.6,73.4,2243,2,1,1125595,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0210,s0111,j020,2026-01-12,0,Ishaan Gupta,PhD,0,Kolkata,72.1,66.9,73.0,70.7,83.1,52.9,3566,5,0,543083,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0211,s0054,j017,2026-03-03,1,Ananya Kumar,UG,1,Mumbai,67.6,82.0,75.9,82.4,60.7,82.5,1853,4,0,1129130,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0212,s0129,j027,2026-02-21,0,Myra Sharma,UG,2,Chennai,39.9,53.7,40.6,45.8,36.5,33.2,2750,4,0,808919,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0213,s0002,j031,2026-01-22,1,Krishna Das,UG,1,Bengaluru,88.4,92.4,94.3,96.1,67.8,92.8,2143,4,0,791728,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0214,s0051,j026,2026-02-09,0,Aman Gupta,UG,2,Bengaluru,29.0,43.5,56.5,62.6,39.2,32.9,2596,3,0,861799,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0215,s0103,j033,2026-02-07,0,Arjun Sharma,PG,0,Chennai,81.4,63.0,62.5,74.4,46.5,57.2,2823,4,0,850509,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0216,s0045,j038,2026-02-10,1,Sai Nair,UG,0,Hyderabad,50.2,55.6,52.7,,56.9,66.0,3004,3,0,1576827,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0217,s0126,j036,2026-02-11,0,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0218,s0034,j027,2026-02-26,0,Ishaan Agarwal,PG,3,Pune,49.8,0.0,29.8,41.5,31.4,44.2,2311,5,1,821098,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0219,s0082,j011,2026-04-19,1,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0220,s0090,j027,2026-03-21,0,Sai Kapoor,UG,0,Pune,80.7,46.1,84.6,86.3,94.4,84.6,1870,4,0,816547,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0221,s0076,j018,2026-04-08,0,Aarav Nair,UG,0,Mumbai,45.7,71.5,67.0,59.3,54.2,58.2,3073,4,0,1316074,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0222,s0130,j037,2026-02-13,0,Aman Mukherjee,PG,2,Delhi,21.5,70.2,28.4,23.7,34.3,59.3,3137,4,0,1272509,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0223,s0102,j010,2026-04-07,0,Saanvi Kumar,PG,1,Delhi,48.6,67.3,52.1,48.3,66.3,35.6,2484,2,0,1350394,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0224,s0014,j003,2026-02-05,0,Vihaan Banerjee,UG,0,Delhi,96.3,95.8,60.8,84.4,50.6,83.6,2565,2,2,1060785,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0225,s0083,j020,2026-04-28,1,Anika Reddy,PG,4,Hyderabad,98.1,95.9,100.0,100.0,100.0,88.2,2410,4,0,1603824,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0226,s0086,j030,2026-01-11,1,Reyansh Iyer,UG,1,Bengaluru,,33.7,24.2,52.1,38.9,47.1,2686,4,0,825003,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0227,s0087,j033,2026-04-13,0,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0228,s0147,j020,2026-05-02,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0229,s0108,j034,2026-04-28,1,Vihaan Kumar,UG,3,Delhi,82.8,74.6,88.3,70.1,66.2,83.2,3117,4,0,1283622,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0230,s0000,j024,2026-03-02,0,Aditya Das,UG,3,Bengaluru,24.5,19.9,32.4,16.8,35.1,24.0,2307,3,0,1086308,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0231,s0080,j032,2026-05-20,0,Riya Sharma,UG,2,Pune,64.6,80.1,84.4,79.6,94.0,70.1,2232,3,0,533449,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0232,s0022,j032,2026-04-03,0,Arjun Rao,UG,2,Mumbai,86.9,53.3,53.5,80.3,75.9,77.3,1408,3,1,1184410,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0233,s0063,j012,2026-02-16,1,Arjun Kapoor,UG,1,Mumbai,69.7,85.2,64.6,90.8,67.2,91.2,2534,4,0,655461,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0234,s0046,j021,2026-04-04,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0235,s0100,j035,2026-01-22,0,Nikhil Rao,UG,3,Pune,44.7,53.6,54.0,45.4,65.6,48.1,2366,4,2,1322598,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0236,s0109,j039,2026-03-17,0,Ishaan Rao,PG,1,Bengaluru,38.5,47.9,39.2,41.2,21.7,50.1,1748,3,0,1435259,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0237,s0101,j009,2026-02-10,0,Aadhya Joshi,UG,3,Bengaluru,42.6,65.9,45.1,25.4,39.4,47.0,2292,4,0,654970,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0238,s0012,j038,2026-02-20,0,Kiara Chatterjee,PG,1,Kolkata,38.0,55.3,73.7,39.6,69.4,35.5,1670,3,0,671690,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0239,s0099,j019,2026-05-24,1,Sai Mukherjee,UG,3,Kolkata,96.7,80.9,76.8,94.5,87.1,78.1,3107,3,1,1189510,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0240,s0082,j007,2026-01-05,1,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0241,s0060,j037,2026-05-20,0,Divya Mukherjee,UG,1,Delhi,44.0,66.9,47.9,38.4,64.4,51.8,993,4,0,740565,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0242,s0115,j010,2026-01-04,1,Nikhil Gupta,UG,1,Chennai,96.8,65.1,83.7,75.7,90.9,97.4,1173,3,0,1040674,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0243,s0049,j023,2026-03-08,1,Aadhya Bhatt,UG,1,Pune,93.7,69.8,,73.1,100.0,71.7,2554,4,2,562127,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0244,s0100,j013,2026-03-13,0,Nikhil Rao,UG,3,Pune,44.7,53.6,54.0,45.4,65.6,48.1,2366,4,2,1322598,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0245,s0127,j036,2026-05-22,0,Sneha Agarwal,UG,0,Ahmedabad,69.2,61.8,51.3,29.4,49.5,31.6,2191,4,1,386107,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0246,s0139,j027,2026-02-12,0,Krishna Mukherjee,UG,1,Ahmedabad,61.8,31.4,51.9,47.7,73.6,65.1,2831,4,1,1570402,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0247,s0102,j011,2026-02-10,0,Saanvi Kumar,PG,1,Delhi,48.6,67.3,52.1,48.3,66.3,35.6,2484,2,0,1350394,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0248,s0094,j021,2026-01-06,0,Anika Bhatt,PG,1,Kolkata,44.3,61.2,64.8,97.8,69.8,79.5,2421,2,0,1166752,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0249,s0117,j000,2026-04-23,0,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0250,s0048,j017,2026-03-06,1,Aman Bhatt,UG,0,Delhi,86.6,96.4,87.5,94.2,80.9,98.7,3322,5,0,1030568,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0251,s0141,j019,2026-01-10,1,Ishaan Mehta,UG,4,Kolkata,41.7,59.3,52.8,57.8,77.8,79.2,2233,4,0,848524,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0252,s0047,j021,2026-02-17,0,Reyansh Gupta,UG,3,Ahmedabad,83.2,52.5,46.2,63.8,89.8,71.2,2081,4,0,755747,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0253,s0025,j019,2026-04-30,1,Rohan Gupta,UG,3,Delhi,75.2,45.3,61.2,49.3,39.7,49.3,2901,4,1,1047066,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0254,s0002,j024,2026-04-01,1,Krishna Das,UG,1,Bengaluru,88.4,92.4,94.3,96.1,67.8,92.8,2143,4,0,791728,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0255,s0000,j022,2026-02-01,0,Aditya Das,UG,3,Bengaluru,24.5,19.9,32.4,16.8,35.1,24.0,2307,3,0,1086308,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0256,s0069,j030,2026-04-09,0,Kiara Kapoor,PhD,1,Mumbai,53.2,39.1,65.5,37.2,58.6,73.4,2243,2,1,1125595,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0257,s0061,j011,2026-01-04,0,Neha Patel,PG,1,Hyderabad,54.2,59.4,68.0,51.3,47.9,48.8,2374,4,1,1919985,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0258,s0121,j013,2026-04-27,0,Vihaan Singh,UG,0,Bengaluru,57.3,41.7,34.5,64.3,52.6,58.9,2776,4,1,650781,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0259,s0093,j023,2026-01-22,0,Karthik Nair,UG,1,Mumbai,47.6,59.5,49.6,58.6,52.5,88.7,2125,4,1,758893,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0260,s0030,j007,2026-05-06,1,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0261,s0143,j005,2026-05-10,1,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG
+a0262,s0027,j001,2026-05-08,0,Kiara Pillai,UG,0,Hyderabad,44.8,,31.1,19.6,33.3,43.5,1502,3,0,998905,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0263,s0116,j021,2026-03-18,0,Ayaan Verma,UG,2,Ahmedabad,38.2,22.9,42.2,25.1,28.8,35.7,2691,4,0,1398245,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0264,s0094,j027,2026-03-13,1,Anika Bhatt,PG,1,Kolkata,44.3,61.2,64.8,97.8,69.8,79.5,2421,2,0,1166752,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0265,s0045,j012,2026-04-28,0,Sai Nair,UG,0,Hyderabad,50.2,55.6,52.7,,56.9,66.0,3004,3,0,1576827,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0266,s0068,j005,2026-02-23,1,Aadhya Joshi,PG,0,Pune,65.3,100.0,45.0,100.0,89.9,81.7,2219,2,0,785443,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG
+a0267,s0136,j006,2026-05-28,0,Myra Joshi,UG,2,Bengaluru,38.9,71.8,33.8,58.5,40.6,50.3,2734,3,0,1619090,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0268,s0010,j014,2026-02-12,1,Karthik Verma,UG,1,Hyderabad,82.8,71.5,100.0,78.3,74.7,84.3,1353,4,2,992301,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0269,s0096,j000,2026-03-06,0,Sneha Sharma,UG,3,Bengaluru,59.2,73.9,,75.2,44.6,53.1,3535,4,0,770003,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0270,s0015,j033,2026-01-20,0,Siddharth Sharma,PhD,1,Bengaluru,68.4,61.5,60.9,,,30.8,1510,2,0,1162301,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0271,s0049,j017,2026-05-02,0,Aadhya Bhatt,UG,1,Pune,93.7,69.8,,73.1,100.0,71.7,2554,4,2,562127,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0272,s0085,j029,2026-02-26,0,Diya Banerjee,UG,1,Kolkata,24.6,21.5,53.3,32.6,46.7,32.2,1858,3,1,412214,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0273,s0114,j031,2026-02-14,0,Ayaan Bhatt,PG,2,Hyderabad,30.6,44.0,31.0,54.1,46.8,55.0,3834,3,0,476481,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0274,s0111,j001,2026-01-03,0,Ishaan Gupta,PhD,0,Kolkata,72.1,66.9,73.0,70.7,83.1,52.9,3566,5,0,543083,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0275,s0032,j003,2026-03-31,0,Aditya Banerjee,PG,2,Ahmedabad,25.3,67.9,,50.6,43.5,45.7,2981,3,0,1218010,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0276,s0126,j027,2026-01-21,0,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0277,s0021,j023,2026-02-13,0,Pari Patel,PG,2,Chennai,52.1,57.6,33.6,21.6,46.2,57.1,2304,3,0,965790,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0278,s0046,j020,2026-05-11,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Brightfield Labs,Junior Data Analyst,Pune,0.3,1227316,25.2,86.8,51.1,,71.8,55.5,UG
+a0279,s0143,j022,2026-02-19,0,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0280,s0078,j033,2026-02-10,1,Karthik Chatterjee,UG,0,Delhi,95.0,68.6,71.1,,100.0,80.8,2104,2,0,517486,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0281,s0016,j014,2026-05-20,1,Divya Bhatt,PG,4,Kolkata,65.7,45.1,45.9,71.1,49.1,42.4,2036,3,1,1049761,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0282,s0098,j004,2026-01-10,1,Ishaan Das,UG,0,Delhi,90.4,100.0,90.9,100.0,100.0,85.5,1821,5,1,1238799,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0283,s0029,j013,2026-01-03,1,Karthik Rao,UG,5,Hyderabad,94.5,99.3,90.1,78.1,100.0,91.6,2407,4,0,1038946,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0284,s0021,j026,2026-03-31,0,Pari Patel,PG,2,Chennai,52.1,57.6,33.6,21.6,46.2,57.1,2304,3,0,965790,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0285,s0088,j003,2026-05-08,1,Aarav Banerjee,UG,6,Chennai,,23.6,52.3,58.8,62.5,54.5,2619,3,0,1682035,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0286,s0008,j021,2026-04-21,0,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0287,s0069,j017,2026-05-23,0,Kiara Kapoor,PhD,1,Mumbai,53.2,39.1,65.5,37.2,58.6,73.4,2243,2,1,1125595,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0288,s0042,j019,2026-04-02,1,Krishna Chatterjee,PG,1,Bengaluru,70.6,76.0,58.4,37.8,77.8,43.5,2461,4,0,773555,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0289,s0140,j024,2026-03-29,0,Vihaan Banerjee,UG,2,Kolkata,40.8,28.7,61.3,20.9,43.4,49.4,2736,4,2,475548,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0290,s0103,j031,2026-01-28,0,Arjun Sharma,PG,0,Chennai,81.4,63.0,62.5,74.4,46.5,57.2,2823,4,0,850509,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0291,s0068,j026,2026-03-13,0,Aadhya Joshi,PG,0,Pune,65.3,100.0,45.0,100.0,89.9,81.7,2219,2,0,785443,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0292,s0100,j022,2026-03-06,0,Nikhil Rao,UG,3,Pune,44.7,53.6,54.0,45.4,65.6,48.1,2366,4,2,1322598,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0293,s0039,j033,2026-01-09,0,Navya Bhatt,UG,0,Kolkata,60.6,67.2,33.5,61.3,76.4,63.6,2399,4,0,1181987,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0294,s0070,j032,2026-04-28,0,Rohan Mukherjee,UG,3,Mumbai,53.5,52.7,45.3,29.9,45.8,20.0,1729,3,0,675460,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0295,s0137,j003,2026-04-08,1,Aman Iyer,UG,2,Mumbai,94.2,100.0,99.7,88.0,100.0,88.7,2442,4,0,1413828,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0296,s0009,j018,2026-05-27,1,Diya Das,PG,6,Pune,63.4,45.6,48.3,34.2,65.3,62.4,2174,3,0,816639,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0297,s0054,j029,2026-03-08,1,Ananya Kumar,UG,1,Mumbai,67.6,82.0,75.9,82.4,60.7,82.5,1853,4,0,1129130,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0298,s0080,j006,2026-02-21,0,Riya Sharma,UG,2,Pune,64.6,80.1,84.4,79.6,94.0,70.1,2232,3,0,533449,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0299,s0139,j018,2026-04-26,0,Krishna Mukherjee,UG,1,Ahmedabad,61.8,31.4,51.9,47.7,73.6,65.1,2831,4,1,1570402,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0300,s0107,j013,2026-01-23,0,Aadhya Reddy,PG,4,Ahmedabad,72.5,74.9,55.2,,50.8,61.5,2181,3,0,902522,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0301,s0030,j031,2026-01-17,1,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0302,s0023,j007,2026-01-26,0,Karthik Agarwal,PhD,3,Hyderabad,38.3,61.4,49.9,35.2,38.5,50.9,2135,4,0,683116,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0303,s0099,j015,2026-04-30,1,Sai Mukherjee,UG,3,Kolkata,96.7,80.9,76.8,94.5,87.1,78.1,3107,3,1,1189510,Quantara,QA Engineer,Delhi,1.2,1071473,45.9,58.0,,,95.0,49.3,PG
+a0304,s0046,j035,2026-05-04,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0305,s0006,j021,2026-03-07,0,Divya Singh,UG,0,Pune,40.0,43.1,47.8,30.9,46.4,62.2,2153,4,0,1437514,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0306,s0088,j009,2026-02-25,1,Aarav Banerjee,UG,6,Chennai,,23.6,52.3,58.8,62.5,54.5,2619,3,0,1682035,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0307,s0046,j030,2026-01-31,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0308,s0114,j000,2026-03-20,0,Ayaan Bhatt,PG,2,Hyderabad,30.6,44.0,31.0,54.1,46.8,55.0,3834,3,0,476481,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0309,s0137,j032,2026-03-21,1,Aman Iyer,UG,2,Mumbai,94.2,100.0,99.7,88.0,100.0,88.7,2442,4,0,1413828,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0310,s0114,j022,2026-02-22,0,Ayaan Bhatt,PG,2,Hyderabad,30.6,44.0,31.0,54.1,46.8,55.0,3834,3,0,476481,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0311,s0050,j034,2026-05-05,0,Neha Agarwal,UG,0,Hyderabad,37.8,38.1,79.2,91.4,,62.9,1943,3,0,352990,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0312,s0003,j010,2026-04-04,0,Arjun Patel,UG,1,Kolkata,56.2,61.6,49.4,24.2,43.6,56.4,2186,4,0,828096,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0313,s0101,j025,2026-01-25,0,Aadhya Joshi,UG,3,Bengaluru,42.6,65.9,45.1,25.4,39.4,47.0,2292,4,0,654970,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0314,s0026,j001,2026-05-10,1,Ayaan Das,PG,3,Kolkata,74.4,97.8,84.8,,67.9,65.5,2279,4,0,539215,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0315,s0030,j032,2026-03-29,1,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0316,s0147,j026,2026-01-16,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0317,s0140,j009,2026-03-23,0,Vihaan Banerjee,UG,2,Kolkata,40.8,28.7,61.3,20.9,43.4,49.4,2736,4,2,475548,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0318,s0147,j012,2026-03-29,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0319,s0105,j006,2026-05-09,0,Vihaan Pillai,UG,4,Bengaluru,74.2,70.6,,88.7,90.5,87.2,1429,3,0,710298,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0320,s0085,j022,2026-04-10,0,Diya Banerjee,UG,1,Kolkata,24.6,21.5,53.3,32.6,46.7,32.2,1858,3,1,412214,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0321,s0127,j011,2026-03-04,0,Sneha Agarwal,UG,0,Ahmedabad,69.2,61.8,51.3,29.4,49.5,31.6,2191,4,1,386107,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0322,s0087,j039,2026-05-14,0,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0323,s0048,j018,2026-05-28,1,Aman Bhatt,UG,0,Delhi,86.6,96.4,87.5,94.2,80.9,98.7,3322,5,0,1030568,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0324,s0091,j008,2026-01-20,0,Vihaan Das,UG,1,Kolkata,8.0,17.6,14.0,0.8,3.8,0.0,1867,3,0,835845,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0325,s0041,j031,2026-01-16,1,Kiara Sharma,PG,4,Delhi,43.9,49.0,88.8,60.6,60.0,32.6,2791,3,0,902976,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0326,s0043,j015,2026-04-27,1,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Quantara,QA Engineer,Delhi,1.2,1071473,45.9,58.0,,,95.0,49.3,PG
+a0327,s0067,j004,2026-04-08,1,Aditya Agarwal,PG,1,Bengaluru,64.7,93.0,97.1,57.3,57.1,66.5,1849,5,0,791153,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0328,s0005,j019,2026-01-21,1,Reyansh Reddy,PhD,0,Bengaluru,100.0,41.0,53.4,70.3,57.5,59.5,3460,4,0,725246,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0329,s0082,j007,2026-05-15,0,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0330,s0059,j002,2026-01-26,0,Diya Kumar,PG,0,Kolkata,98.8,100.0,81.0,64.1,74.7,83.2,2885,3,1,614198,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0331,s0027,j013,2026-04-18,0,Kiara Pillai,UG,0,Hyderabad,44.8,,31.1,19.6,33.3,43.5,1502,3,0,998905,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0332,s0101,j013,2026-01-01,0,Aadhya Joshi,UG,3,Bengaluru,42.6,65.9,45.1,25.4,39.4,47.0,2292,4,0,654970,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0333,s0070,j032,2026-05-24,0,Rohan Mukherjee,UG,3,Mumbai,53.5,52.7,45.3,29.9,45.8,20.0,1729,3,0,675460,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0334,s0038,j034,2026-02-19,1,Nikhil Banerjee,PhD,1,Kolkata,100.0,84.5,82.2,64.4,77.7,75.7,2627,3,0,724739,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0335,s0144,j008,2026-01-13,1,Priya Nair,UG,3,Hyderabad,63.4,,84.2,81.8,70.1,100.0,1670,3,0,1523429,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0336,s0099,j018,2026-04-13,1,Sai Mukherjee,UG,3,Kolkata,96.7,80.9,76.8,94.5,87.1,78.1,3107,3,1,1189510,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0337,s0076,j010,2026-05-17,0,Aarav Nair,UG,0,Mumbai,45.7,71.5,67.0,59.3,54.2,58.2,3073,4,0,1316074,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0338,s0054,j022,2026-05-05,0,Ananya Kumar,UG,1,Mumbai,67.6,82.0,75.9,82.4,60.7,82.5,1853,4,0,1129130,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0339,s0004,j030,2026-05-01,1,Aditya Verma,PG,3,Chennai,52.0,62.9,85.6,71.3,80.0,49.7,1844,3,0,1122302,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0340,s0047,j032,2026-04-14,1,Reyansh Gupta,UG,3,Ahmedabad,83.2,52.5,46.2,63.8,89.8,71.2,2081,4,0,755747,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0341,s0059,j034,2026-03-24,0,Diya Kumar,PG,0,Kolkata,98.8,100.0,81.0,64.1,74.7,83.2,2885,3,1,614198,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0342,s0002,j003,2026-01-20,1,Krishna Das,UG,1,Bengaluru,88.4,92.4,94.3,96.1,67.8,92.8,2143,4,0,791728,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0343,s0046,j024,2026-02-06,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0344,s0073,j029,2026-04-24,0,Vivaan Joshi,UG,2,Ahmedabad,45.2,23.7,50.3,27.4,35.3,33.7,1789,4,0,300000,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0345,s0038,j010,2026-04-14,1,Nikhil Banerjee,PhD,1,Kolkata,100.0,84.5,82.2,64.4,77.7,75.7,2627,3,0,724739,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0346,s0085,j035,2026-04-01,0,Diya Banerjee,UG,1,Kolkata,24.6,21.5,53.3,32.6,46.7,32.2,1858,3,1,412214,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0347,s0087,j037,2026-04-09,0,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0348,s0008,j022,2026-04-03,0,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0349,s0138,j023,2026-04-20,1,Siddharth Joshi,PG,3,Delhi,,40.0,59.7,48.4,45.3,74.1,1844,5,0,1154405,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0350,s0102,j011,2026-04-27,0,Saanvi Kumar,PG,1,Delhi,48.6,67.3,52.1,48.3,66.3,35.6,2484,2,0,1350394,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0351,s0025,j027,2026-04-12,0,Rohan Gupta,UG,3,Delhi,75.2,45.3,61.2,49.3,39.7,49.3,2901,4,1,1047066,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0352,s0052,j034,2026-02-20,1,Diya Sharma,PG,0,Ahmedabad,76.3,66.5,73.6,70.7,96.4,59.8,2642,2,0,1027587,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0353,s0114,j034,2026-03-03,0,Ayaan Bhatt,PG,2,Hyderabad,30.6,44.0,31.0,54.1,46.8,55.0,3834,3,0,476481,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0354,s0125,j003,2026-03-16,1,Vihaan Banerjee,UG,0,Kolkata,56.0,54.9,51.5,47.7,65.2,56.5,1584,4,0,540023,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0355,s0028,j000,2026-04-14,1,Ayaan Bhatt,UG,0,Kolkata,60.5,,61.0,80.2,39.3,85.7,2176,3,0,795257,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0356,s0143,j027,2026-05-04,1,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0357,s0088,j028,2026-04-09,0,Aarav Banerjee,UG,6,Chennai,,23.6,52.3,58.8,62.5,54.5,2619,3,0,1682035,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0358,s0035,j013,2026-01-12,0,Divya Banerjee,UG,0,Bengaluru,49.4,69.0,51.5,36.8,55.8,50.0,2445,4,1,1476587,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0359,s0096,j005,2026-02-26,1,Sneha Sharma,UG,3,Bengaluru,59.2,73.9,,75.2,44.6,53.1,3535,4,0,770003,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG
+a0360,s0009,j035,2026-04-16,1,Diya Das,PG,6,Pune,63.4,45.6,48.3,34.2,65.3,62.4,2174,3,0,816639,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0361,s0143,j035,2026-02-02,0,Sai Gupta,PG,0,Delhi,57.0,70.4,,73.8,64.2,65.4,2133,4,0,1106612,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0362,s0025,j021,2026-05-25,0,Rohan Gupta,UG,3,Delhi,75.2,45.3,61.2,49.3,39.7,49.3,2901,4,1,1047066,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0363,s0136,j002,2026-01-07,0,Myra Joshi,UG,2,Bengaluru,38.9,71.8,33.8,58.5,40.6,50.3,2734,3,0,1619090,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0364,s0094,j008,2026-03-12,1,Anika Bhatt,PG,1,Kolkata,44.3,61.2,64.8,97.8,69.8,79.5,2421,2,0,1166752,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0365,s0038,j038,2026-01-05,1,Nikhil Banerjee,PhD,1,Kolkata,100.0,84.5,82.2,64.4,77.7,75.7,2627,3,0,724739,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0366,s0113,j000,2026-03-12,0,Riya Joshi,PG,4,Delhi,20.3,29.9,52.9,40.4,29.7,43.0,2380,4,0,889239,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0367,s0056,j023,2026-01-20,1,Sai Agarwal,PG,5,Hyderabad,69.8,70.1,49.6,90.8,74.1,57.5,3423,4,0,940104,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0368,s0016,j037,2026-01-12,0,Divya Bhatt,PG,4,Kolkata,65.7,45.1,45.9,71.1,49.1,42.4,2036,3,1,1049761,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0369,s0046,j031,2026-03-13,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0370,s0007,j024,2026-02-02,1,Diya Nair,PG,0,Delhi,85.3,71.1,85.0,100.0,85.1,72.3,1873,3,0,435762,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0371,s0058,j023,2026-04-28,0,Ananya Gupta,UG,3,Kolkata,29.0,0.0,25.8,49.9,,40.5,2585,4,1,564200,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0372,s0140,j012,2026-04-22,0,Vihaan Banerjee,UG,2,Kolkata,40.8,28.7,61.3,20.9,43.4,49.4,2736,4,2,475548,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0373,s0126,j021,2026-01-13,0,Ishaan Pillai,UG,1,Bengaluru,54.4,54.6,66.6,58.6,34.7,56.2,2482,4,1,665501,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0374,s0006,j017,2026-04-15,0,Divya Singh,UG,0,Pune,40.0,43.1,47.8,30.9,46.4,62.2,2153,4,0,1437514,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0375,s0096,j012,2026-01-18,1,Sneha Sharma,UG,3,Bengaluru,59.2,73.9,,75.2,44.6,53.1,3535,4,0,770003,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0376,s0008,j024,2026-04-16,1,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0377,s0050,j030,2026-04-30,1,Neha Agarwal,UG,0,Hyderabad,37.8,38.1,79.2,91.4,,62.9,1943,3,0,352990,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0378,s0062,j008,2026-04-26,1,Saanvi Mukherjee,UG,0,Bengaluru,76.1,42.2,66.5,62.5,63.3,59.7,1517,4,1,1126937,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0379,s0090,j002,2026-05-25,1,Sai Kapoor,UG,0,Pune,80.7,46.1,84.6,86.3,94.4,84.6,1870,4,0,816547,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0380,s0128,j015,2026-04-07,0,Krishna Chatterjee,UG,2,Delhi,53.5,23.1,55.5,45.1,40.5,28.3,2230,4,1,362304,Quantara,QA Engineer,Delhi,1.2,1071473,45.9,58.0,,,95.0,49.3,PG
+a0381,s0124,j021,2026-04-27,0,Aadhya Reddy,UG,0,Kolkata,50.7,26.4,53.8,33.6,44.9,32.1,2464,3,0,1464168,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0382,s0065,j031,2026-05-04,0,Ishaan Joshi,PG,6,Pune,,23.6,43.0,38.0,8.1,21.3,2475,3,0,1112201,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0383,s0108,j029,2026-03-26,1,Vihaan Kumar,UG,3,Delhi,82.8,74.6,88.3,70.1,66.2,83.2,3117,4,0,1283622,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0384,s0053,j035,2026-01-18,1,Vihaan Iyer,UG,2,Pune,50.2,66.1,75.5,87.3,,75.2,2761,3,2,786605,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0385,s0034,j022,2026-02-07,0,Ishaan Agarwal,PG,3,Pune,49.8,0.0,29.8,41.5,31.4,44.2,2311,5,1,821098,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0386,s0044,j018,2026-03-27,1,Navya Das,UG,3,Delhi,86.3,75.8,87.2,54.2,66.2,82.8,3481,3,0,497778,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0387,s0068,j007,2026-04-09,0,Aadhya Joshi,PG,0,Pune,65.3,100.0,45.0,100.0,89.9,81.7,2219,2,0,785443,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0388,s0142,j018,2026-05-14,0,Vihaan Sharma,UG,0,Pune,71.7,84.7,86.0,72.9,93.5,66.2,2107,5,0,734071,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0389,s0108,j032,2026-02-09,1,Vihaan Kumar,UG,3,Delhi,82.8,74.6,88.3,70.1,66.2,83.2,3117,4,0,1283622,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0390,s0057,j035,2026-02-05,1,Navya Banerjee,PG,0,Kolkata,80.8,71.8,64.9,66.3,65.3,78.5,2699,2,1,946321,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0391,s0101,j007,2026-03-10,0,Aadhya Joshi,UG,3,Bengaluru,42.6,65.9,45.1,25.4,39.4,47.0,2292,4,0,654970,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0392,s0105,j002,2026-03-05,1,Vihaan Pillai,UG,4,Bengaluru,74.2,70.6,,88.7,90.5,87.2,1429,3,0,710298,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0393,s0148,j028,2026-02-16,0,Ananya Iyer,UG,0,Ahmedabad,36.3,24.3,57.0,29.5,31.6,15.1,996,3,0,340525,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0394,s0114,j014,2026-02-03,0,Ayaan Bhatt,PG,2,Hyderabad,30.6,44.0,31.0,54.1,46.8,55.0,3834,3,0,476481,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0395,s0044,j015,2026-04-26,1,Navya Das,UG,3,Delhi,86.3,75.8,87.2,54.2,66.2,82.8,3481,3,0,497778,Quantara,QA Engineer,Delhi,1.2,1071473,45.9,58.0,,,95.0,49.3,PG
+a0396,s0089,j036,2026-04-21,1,Priya Iyer,UG,4,Pune,55.0,99.2,60.4,77.2,100.0,99.5,2285,2,0,1184107,Lucent Analytics,Senior ML Engineer,Bengaluru,5.2,1643273,66.5,44.6,,57.6,52.2,54.2,UG
+a0397,s0055,j004,2026-05-30,0,Anika Bhatt,PG,0,Mumbai,46.7,1.4,38.6,60.8,81.4,35.3,2705,4,1,860026,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0398,s0129,j012,2026-01-03,0,Myra Sharma,UG,2,Chennai,39.9,53.7,40.6,45.8,36.5,33.2,2750,4,0,808919,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0399,s0090,j019,2026-03-17,1,Sai Kapoor,UG,0,Pune,80.7,46.1,84.6,86.3,94.4,84.6,1870,4,0,816547,Solace Data,Research Intern,Bengaluru,0.7,1259809,44.1,70.0,,,,42.4,UG
+a0400,s0142,j021,2026-03-27,0,Vihaan Sharma,UG,0,Pune,71.7,84.7,86.0,72.9,93.5,66.2,2107,5,0,734071,Orbital Tech,Backend Developer,Bengaluru,2.8,1046769,55.8,73.1,80.8,79.3,95.0,,UG
+a0401,s0119,j009,2026-02-26,0,Sai Sharma,PG,2,Pune,46.8,47.8,27.8,23.7,48.2,43.1,2647,3,0,1133946,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0402,s0100,j027,2026-03-11,0,Nikhil Rao,UG,3,Pune,44.7,53.6,54.0,45.4,65.6,48.1,2366,4,2,1322598,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0403,s0144,j002,2026-03-27,1,Priya Nair,UG,3,Hyderabad,63.4,,84.2,81.8,70.1,100.0,1670,3,0,1523429,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0404,s0104,j018,2026-03-18,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0405,s0124,j024,2026-01-18,0,Aadhya Reddy,UG,0,Kolkata,50.7,26.4,53.8,33.6,44.9,32.1,2464,3,0,1464168,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0406,s0015,j035,2026-05-28,0,Siddharth Sharma,PhD,1,Bengaluru,68.4,61.5,60.9,,,30.8,1510,2,0,1162301,Quantara,QA Engineer,Delhi,1.0,1608017,58.7,29.5,,66.2,52.5,,UG
+a0407,s0081,j001,2026-04-28,1,Divya Iyer,UG,2,Bengaluru,74.3,70.3,81.5,59.6,84.5,80.4,2458,5,2,776966,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0408,s0082,j003,2026-03-23,1,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0409,s0049,j026,2026-01-09,0,Aadhya Bhatt,UG,1,Pune,93.7,69.8,,73.1,100.0,71.7,2554,4,2,562127,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0410,s0082,j034,2026-03-19,1,Pooja Joshi,UG,2,Delhi,93.1,44.3,54.7,62.0,64.6,52.6,1953,3,0,1355405,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0411,s0089,j022,2026-01-20,0,Priya Iyer,UG,4,Pune,55.0,99.2,60.4,77.2,100.0,99.5,2285,2,0,1184107,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0412,s0057,j012,2026-03-27,0,Navya Banerjee,PG,0,Kolkata,80.8,71.8,64.9,66.3,65.3,78.5,2699,2,1,946321,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0413,s0024,j014,2026-01-27,0,Myra Sharma,UG,1,Pune,75.9,16.2,32.3,38.6,66.9,43.3,1361,4,1,839039,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0414,s0042,j016,2026-02-25,0,Krishna Chatterjee,PG,1,Bengaluru,70.6,76.0,58.4,37.8,77.8,43.5,2461,4,0,773555,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0415,s0011,j013,2026-05-17,0,Anika Pillai,PG,2,Chennai,57.7,59.4,36.4,42.2,48.4,74.6,3439,5,0,1510377,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0416,s0091,j028,2026-04-23,0,Vihaan Das,UG,1,Kolkata,8.0,17.6,14.0,0.8,3.8,0.0,1867,3,0,835845,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0417,s0029,j001,2026-05-30,1,Karthik Rao,UG,5,Hyderabad,94.5,99.3,90.1,78.1,100.0,91.6,2407,4,0,1038946,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0418,s0100,j000,2026-03-07,1,Nikhil Rao,UG,3,Pune,44.7,53.6,54.0,45.4,65.6,48.1,2366,4,2,1322598,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0419,s0030,j039,2026-03-06,1,Siddharth Joshi,PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,2423,3,0,1020611,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0420,s0080,j029,2026-05-21,1,Riya Sharma,UG,2,Pune,64.6,80.1,84.4,79.6,94.0,70.1,2232,3,0,533449,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0421,s0035,j013,2026-03-27,0,Divya Banerjee,UG,0,Bengaluru,49.4,69.0,51.5,36.8,55.8,50.0,2445,4,1,1476587,Quantara,Data Scientist,Mumbai,3.5,350000,77.0,63.4,,63.2,45.9,69.6,PG
+a0422,s0067,j003,2026-05-19,1,Aditya Agarwal,PG,1,Bengaluru,64.7,93.0,97.1,57.3,57.1,66.5,1849,5,0,791153,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0423,s0131,j006,2026-02-19,1,Pari Sharma,UG,2,Pune,94.1,81.7,54.7,66.4,90.9,69.0,2202,3,0,711595,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0424,s0043,j039,2026-02-20,0,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0425,s0070,j009,2026-01-08,0,Rohan Mukherjee,UG,3,Mumbai,53.5,52.7,45.3,29.9,45.8,20.0,1729,3,0,675460,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0426,s0008,j026,2026-04-09,0,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Solace Data,Senior ML Engineer,Bengaluru,4.4,1663379,67.0,48.8,44.3,,61.2,31.4,UG
+a0427,s0038,j030,2026-01-11,1,Nikhil Banerjee,PhD,1,Kolkata,100.0,84.5,82.2,64.4,77.7,75.7,2627,3,0,724739,NimbusWorks,Junior Data Analyst,Pune,2.4,1508617,42.2,,55.4,24.4,53.8,46.6,UG
+a0428,s0053,j029,2026-05-22,1,Vihaan Iyer,UG,2,Pune,50.2,66.1,75.5,87.3,,75.2,2761,3,2,786605,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0429,s0054,j025,2026-05-01,0,Ananya Kumar,UG,1,Mumbai,67.6,82.0,75.9,82.4,60.7,82.5,1853,4,0,1129130,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0430,s0117,j034,2026-01-08,0,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0431,s0149,j038,2026-04-03,0,Krishna Verma,PhD,1,Ahmedabad,64.6,,85.6,44.3,92.0,37.5,2210,3,0,1038310,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0432,s0135,j008,2026-01-04,1,Kiara Sharma,UG,1,Ahmedabad,81.2,84.7,87.8,86.8,100.0,85.9,1689,4,0,1224399,NimbusWorks,Frontend Developer,Mumbai,1.9,810170,88.0,44.6,56.4,,33.3,52.8,UG
+a0433,s0104,j037,2026-01-21,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,Orbital Tech,Data Engineer,Pune,3.3,1251185,67.7,,34.0,60.0,54.4,56.5,UG
+a0434,s0144,j005,2026-05-13,1,Priya Nair,UG,3,Hyderabad,63.4,,84.2,81.8,70.1,100.0,1670,3,0,1523429,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG
+a0435,s0065,j004,2026-05-27,0,Ishaan Joshi,PG,6,Pune,,23.6,43.0,38.0,8.1,21.3,2475,3,0,1112201,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0436,s0007,j004,2026-03-13,0,Diya Nair,PG,0,Delhi,85.3,71.1,85.0,100.0,85.1,72.3,1873,3,0,435762,Orbital Tech,Full Stack Developer,Chennai,2.4,1410091,,49.6,42.9,38.1,72.9,59.3,PG
+a0437,s0102,j034,2026-05-23,0,Saanvi Kumar,PG,1,Delhi,48.6,67.3,52.1,48.3,66.3,35.6,2484,2,0,1350394,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0438,s0124,j016,2026-03-11,0,Aadhya Reddy,UG,0,Kolkata,50.7,26.4,53.8,33.6,44.9,32.1,2464,3,0,1464168,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0439,s0096,j032,2026-01-09,0,Sneha Sharma,UG,3,Bengaluru,59.2,73.9,,75.2,44.6,53.1,3535,4,0,770003,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0440,s0122,j027,2026-03-18,0,Krishna Rao,UG,0,Mumbai,22.1,40.9,51.9,56.8,59.1,50.1,2687,4,0,708079,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0441,s0067,j001,2026-01-01,1,Aditya Agarwal,PG,1,Bengaluru,64.7,93.0,97.1,57.3,57.1,66.5,1849,5,0,791153,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0442,s0043,j034,2026-02-14,1,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0443,s0131,j016,2026-02-19,0,Pari Sharma,UG,2,Pune,94.1,81.7,54.7,66.4,90.9,69.0,2202,3,0,711595,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0444,s0053,j027,2026-04-14,0,Vihaan Iyer,UG,2,Pune,50.2,66.1,75.5,87.3,,75.2,2761,3,2,786605,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0445,s0148,j016,2026-01-24,0,Ananya Iyer,UG,0,Ahmedabad,36.3,24.3,57.0,29.5,31.6,15.1,996,3,0,340525,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0446,s0012,j039,2026-04-20,1,Kiara Chatterjee,PG,1,Kolkata,38.0,55.3,73.7,39.6,69.4,35.5,1670,3,0,671690,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0447,s0044,j001,2026-05-18,0,Navya Das,UG,3,Delhi,86.3,75.8,87.2,54.2,66.2,82.8,3481,3,0,497778,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0448,s0068,j011,2026-05-07,0,Aadhya Joshi,PG,0,Pune,65.3,100.0,45.0,100.0,89.9,81.7,2219,2,0,785443,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0449,s0068,j032,2026-01-15,1,Aadhya Joshi,PG,0,Pune,65.3,100.0,45.0,100.0,89.9,81.7,2219,2,0,785443,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0450,s0017,j027,2026-01-01,1,Priya Reddy,UG,2,Chennai,72.5,99.4,99.7,85.6,75.6,82.5,1446,2,0,739463,Verdant Systems,Data Engineer,Pune,3.8,1129910,,45.1,52.2,71.4,46.1,55.0,UG
+a0451,s0146,j039,2026-02-21,1,Aditya Mukherjee,PG,2,Chennai,69.0,49.1,58.8,55.8,53.9,60.7,2208,3,0,869225,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG
+a0452,s0083,j031,2026-05-26,1,Anika Reddy,PG,4,Hyderabad,98.1,95.9,100.0,100.0,100.0,88.2,2410,4,0,1603824,Lucent Analytics,Backend Developer,Bengaluru,2.0,350000,62.8,37.8,,39.6,67.7,48.3,PhD
+a0453,s0000,j001,2026-04-15,0,Aditya Das,UG,3,Bengaluru,24.5,19.9,32.4,16.8,35.1,24.0,2307,3,0,1086308,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0454,s0071,j017,2026-02-03,0,Divya Reddy,UG,3,Chennai,72.8,55.7,91.6,69.2,65.5,58.1,1683,3,0,1155440,Orbital Tech,Data Engineer,Pune,3.8,1520969,,35.1,34.8,59.6,39.6,62.6,PG
+a0455,s0149,j033,2026-04-17,1,Krishna Verma,PhD,1,Ahmedabad,64.6,,85.6,44.3,92.0,37.5,2210,3,0,1038310,Quantara,Data Scientist,Mumbai,1.7,494495,47.9,,59.7,44.6,49.3,64.2,PhD
+a0456,s0047,j038,2026-02-28,1,Reyansh Gupta,UG,3,Ahmedabad,83.2,52.5,46.2,63.8,89.8,71.2,2081,4,0,755747,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0457,s0119,j006,2026-04-10,0,Sai Sharma,PG,2,Pune,46.8,47.8,27.8,23.7,48.2,43.1,2647,3,0,1133946,Brightfield Labs,Senior ML Engineer,Bengaluru,6.3,1671914,50.2,42.4,60.4,,80.8,53.3,UG
+a0458,s0131,j010,2026-04-28,1,Pari Sharma,UG,2,Pune,94.1,81.7,54.7,66.4,90.9,69.0,2202,3,0,711595,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0459,s0014,j034,2026-05-06,1,Vihaan Banerjee,UG,0,Delhi,96.3,95.8,60.8,84.4,50.6,83.6,2565,2,2,1060785,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0460,s0087,j028,2026-03-12,0,Karthik Mukherjee,PG,2,Hyderabad,52.0,36.4,24.0,55.3,48.9,42.5,2667,5,0,750688,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0461,s0105,j028,2026-01-23,1,Vihaan Pillai,UG,4,Bengaluru,74.2,70.6,,88.7,90.5,87.2,1429,3,0,710298,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0462,s0147,j018,2026-05-07,0,Aman Banerjee,UG,2,Bengaluru,56.1,20.6,14.4,4.3,15.4,13.6,1370,3,1,1010265,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG
+a0463,s0093,j012,2026-03-01,0,Karthik Nair,UG,1,Mumbai,47.6,59.5,49.6,58.6,52.5,88.7,2125,4,1,758893,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0464,s0104,j011,2026-02-21,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,NimbusWorks,Backend Developer,Bengaluru,0.9,907633,47.4,67.9,49.4,54.7,29.3,66.3,UG
+a0465,s0044,j009,2026-03-31,1,Navya Das,UG,3,Delhi,86.3,75.8,87.2,54.2,66.2,82.8,3481,3,0,497778,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0466,s0129,j003,2026-03-22,0,Myra Sharma,UG,2,Chennai,39.9,53.7,40.6,45.8,36.5,33.2,2750,4,0,808919,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG
+a0467,s0071,j028,2026-03-08,0,Divya Reddy,UG,3,Chennai,72.8,55.7,91.6,69.2,65.5,58.1,1683,3,0,1155440,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0468,s0056,j001,2026-05-09,1,Sai Agarwal,PG,5,Hyderabad,69.8,70.1,49.6,90.8,74.1,57.5,3423,4,0,940104,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0469,s0043,j024,2026-02-16,1,Divya Iyer,UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,3431,2,0,709890,Kestrel Robotics,Full Stack Developer,Chennai,1.8,926629,27.5,69.7,71.8,,59.4,48.0,UG
+a0470,s0122,j038,2026-05-03,0,Krishna Rao,UG,0,Mumbai,22.1,40.9,51.9,56.8,59.1,50.1,2687,4,0,708079,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0471,s0007,j038,2026-02-22,0,Diya Nair,PG,0,Delhi,85.3,71.1,85.0,100.0,85.1,72.3,1873,3,0,435762,Orbital Tech,Frontend Developer,Mumbai,1.5,1660146,43.5,34.8,,92.0,,46.4,UG
+a0472,s0136,j000,2026-05-25,1,Myra Joshi,UG,2,Bengaluru,38.9,71.8,33.8,58.5,40.6,50.3,2734,3,0,1619090,Quantara,Junior Data Analyst,Pune,1.3,659351,55.2,66.9,33.5,,66.3,71.5,PG
+a0473,s0050,j016,2026-01-27,0,Neha Agarwal,UG,0,Hyderabad,37.8,38.1,79.2,91.4,,62.9,1943,3,0,352990,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0474,s0104,j007,2026-04-05,0,Pari Joshi,UG,2,Hyderabad,45.5,31.2,49.5,18.6,34.7,27.7,3874,5,0,1126650,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0475,s0079,j032,2026-04-03,0,Ayaan Chatterjee,UG,2,Ahmedabad,70.5,,62.4,41.5,,51.2,2432,2,0,1042542,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0476,s0024,j002,2026-02-14,0,Myra Sharma,UG,1,Pune,75.9,16.2,32.3,38.6,66.9,43.3,1361,4,1,839039,Northbridge AI,ML Engineer,Hyderabad,4.9,1073522,,69.8,43.6,45.6,74.6,62.8,PhD
+a0477,s0127,j001,2026-05-18,0,Sneha Agarwal,UG,0,Ahmedabad,69.2,61.8,51.3,29.4,49.5,31.6,2191,4,1,386107,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG
+a0478,s0013,j016,2026-03-09,0,Riya Gupta,UG,0,Pune,80.1,61.9,85.4,63.5,69.7,54.2,2308,4,1,856246,Quantara,Senior ML Engineer,Bengaluru,5.1,1897771,29.0,,,42.4,,,UG
+a0479,s0117,j022,2026-01-09,0,Neha Verma,UG,0,Mumbai,42.3,48.7,75.9,55.2,76.3,70.2,1457,4,1,896873,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0480,s0014,j014,2026-03-12,0,Vihaan Banerjee,UG,0,Delhi,96.3,95.8,60.8,84.4,50.6,83.6,2565,2,2,1060785,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0481,s0146,j023,2026-01-05,1,Aditya Mukherjee,PG,2,Chennai,69.0,49.1,58.8,55.8,53.9,60.7,2208,3,0,869225,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0482,s0093,j032,2026-03-01,0,Karthik Nair,UG,1,Mumbai,47.6,59.5,49.6,58.6,52.5,88.7,2125,4,1,758893,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0483,s0068,j007,2026-02-01,1,Aadhya Joshi,PG,0,Pune,65.3,100.0,45.0,100.0,89.9,81.7,2219,2,0,785443,Lucent Analytics,Data Engineer,Pune,3.6,971608,57.9,34.7,41.7,45.3,52.5,36.6,UG
+a0484,s0107,j029,2026-04-24,1,Aadhya Reddy,PG,4,Ahmedabad,72.5,74.9,55.2,,50.8,61.5,2181,3,0,902522,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0485,s0037,j032,2026-01-13,0,Ayaan Joshi,PG,2,Hyderabad,32.1,31.4,36.8,46.2,43.5,42.6,2624,4,0,1015864,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0486,s0115,j010,2026-02-25,1,Nikhil Gupta,UG,1,Chennai,96.8,65.1,83.7,75.7,90.9,97.4,1173,3,0,1040674,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG
+a0487,s0109,j025,2026-04-18,0,Ishaan Rao,PG,1,Bengaluru,38.5,47.9,39.2,41.2,21.7,50.1,1748,3,0,1435259,NimbusWorks,QA Engineer,Delhi,0.6,908959,60.1,,35.9,60.9,60.9,66.5,UG
+a0488,s0074,j029,2026-02-17,1,Karthik Mehta,PhD,4,Bengaluru,70.9,74.1,60.4,74.4,100.0,63.6,2529,3,0,479056,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
+a0489,s0095,j028,2026-04-07,0,Navya Joshi,PhD,0,Bengaluru,62.0,82.4,66.7,60.1,90.3,34.3,3139,4,0,1253033,Orbital Tech,Frontend Developer,Mumbai,1.7,350000,,55.7,,,64.2,,PG
+a0490,s0088,j009,2026-05-07,0,Aarav Banerjee,UG,6,Chennai,,23.6,52.3,58.8,62.5,54.5,2619,3,0,1682035,Lucent Analytics,Research Intern,Bengaluru,0.2,1029194,68.3,61.0,63.6,68.0,63.8,,PG
+a0491,s0008,j032,2026-04-14,1,Aman Gupta,UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,3123,3,1,843066,Northbridge AI,ML Engineer,Hyderabad,3.7,952119,22.2,,52.3,66.0,46.2,81.6,PG
+a0492,s0009,j014,2026-01-07,1,Diya Das,PG,6,Pune,63.4,45.6,48.3,34.2,65.3,62.4,2174,3,0,816639,NimbusWorks,Full Stack Developer,Chennai,1.6,1393055,60.4,,,50.4,,70.3,UG
+a0493,s0093,j022,2026-01-23,0,Karthik Nair,UG,1,Mumbai,47.6,59.5,49.6,58.6,52.5,88.7,2125,4,1,758893,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0494,s0141,j022,2026-04-07,1,Ishaan Mehta,UG,4,Kolkata,41.7,59.3,52.8,57.8,77.8,79.2,2233,4,0,848524,Apex Cloud,ML Engineer,Hyderabad,3.7,1880055,68.6,,40.6,73.4,,,UG
+a0495,s0080,j012,2026-02-04,1,Riya Sharma,UG,2,Pune,64.6,80.1,84.4,79.6,94.0,70.1,2232,3,0,533449,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0496,s0046,j023,2026-05-08,0,Kiara Rao,UG,0,Bengaluru,37.6,29.1,44.1,48.7,16.5,5.7,1682,5,1,1043843,Lucent Analytics,Data Scientist,Mumbai,3.0,1356314,,,42.3,43.7,54.6,62.5,UG
+a0497,s0089,j034,2026-03-28,1,Priya Iyer,UG,4,Pune,55.0,99.2,60.4,77.2,100.0,99.5,2285,2,0,1184107,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG
+a0498,s0132,j012,2026-03-11,0,Divya Sharma,UG,3,Chennai,64.2,74.9,48.1,91.3,58.8,52.6,3057,4,0,1113759,Kestrel Robotics,ML Engineer,Hyderabad,3.0,626013,,63.3,61.5,63.5,43.3,,UG
+a0499,s0059,j029,2026-04-22,1,Diya Kumar,PG,0,Kolkata,98.8,100.0,81.0,64.1,74.7,83.2,2885,3,1,614198,Verdant Systems,Research Intern,Bengaluru,2.3,813657,32.6,,,,62.1,28.4,PG
