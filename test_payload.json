@@ -1,0 +1,23 @@
+{
+  "years_experience": 5,
+  "python_score": 9,
+  "sql_score": 8,
+  "ml_score": 7,
+  "statistics_score": 6,
+  "javascript_score": 5,
+  "data_structures_score": 7,
+  "expected_salary_inr": 1200000,
+  "education_level": "PG",
+  "location_student": "Bangalore",
+  "title": "Machine Learning Engineer",
+  "exp_required_years": 3,
+  "python_required": 7,
+  "sql_required": 6,
+  "ml_required": 5,
+  "statistics_required": 5,
+  "javascript_required": 0,
+  "data_structures_required": 6,
+  "salary_offered_inr": 1500000,
+  "edu_minimum": "UG",
+  "location_job": "Bangalore"
+}
