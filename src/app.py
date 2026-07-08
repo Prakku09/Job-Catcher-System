@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 import joblib
 import pandas as pd
@@ -68,12 +69,30 @@ def load_model():
     }
     print(f"Successfully loaded model and threshold: {threshold}")
 
+@app.get("/", include_in_schema=False)
+def root():
+    """Redirects the root URL to the Swagger UI."""
+    return RedirectResponse(url="/docs")
+
 @app.get("/health")
 def health_check():
     """Basic health check endpoint to confirm API is running and model is loaded."""
     if model_pkg is None:
         raise HTTPException(status_code=503, detail="Model not loaded. Server not ready.")
     return {"status": "ok", "model_loaded": True}
+
+@app.get("/metadata")
+def get_metadata():
+    """Returns metadata about the deployed model."""
+    if model_pkg is None:
+        raise HTTPException(status_code=503, detail="Model not loaded. Server not ready.")
+    return {
+        "model_type": "Logistic Regression (Calibrated)",
+        "framework": "Scikit-Learn",
+        "threshold_used": model_pkg["threshold"],
+        "version": "1.0.0",
+        "author": "Job-Catcher-System"
+    }
 
 @app.post("/predict")
 def predict_match(request: MatchRequest):
