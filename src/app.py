@@ -4,6 +4,7 @@ import joblib
 import pandas as pd
 import sys
 import os
+import json
 
 # Ensure src module can be found if running from root
 sys.path.append('.')
@@ -46,12 +47,26 @@ class MatchRequest(BaseModel):
 @app.on_event("startup")
 def load_model():
     global model_pkg
-    model_path = "models/production_model_package.joblib"
+    model_path = "models/production_binary_classifier.pkl"
+    threshold_path = "reports/operating_point.json"
+    
     if not os.path.exists(model_path):
         print(f"WARNING: Model package not found at {model_path}!")
         return
-    model_pkg = joblib.load(model_path)
-    print(f"Successfully loaded model and threshold: {model_pkg['threshold']}")
+        
+    model = joblib.load(model_path)
+    
+    threshold = 0.5
+    if os.path.exists(threshold_path):
+        with open(threshold_path, 'r') as f:
+            op_data = json.load(f)
+            threshold = op_data.get("optimal_threshold", 0.5)
+            
+    model_pkg = {
+        "model": model,
+        "threshold": threshold
+    }
+    print(f"Successfully loaded model and threshold: {threshold}")
 
 @app.get("/health")
 def health_check():
@@ -64,7 +79,7 @@ def health_check():
 def predict_match(request: MatchRequest):
     """
     Predicts whether a candidate is a good match for a job based on the provided features.
-    Uses the pre-trained and calibrated Stacking Ensemble with cost-based thresholding.
+    Uses the pre-trained and calibrated model with cost-based thresholding.
     """
     if model_pkg is None:
         raise HTTPException(status_code=503, detail="Model not loaded. Server not ready.")
@@ -91,4 +106,3 @@ def predict_match(request: MatchRequest):
         }
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Prediction failed: {str(e)}")
-
