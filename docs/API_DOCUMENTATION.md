@@ -1,6 +1,7 @@
 # API Documentation
 
 ## Base URL
+Public deployment: `https://job-catcher-system.onrender.com`
 Local deployment: `http://127.0.0.1:8000`
 
 ## Endpoints

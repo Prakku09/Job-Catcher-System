@@ -4,9 +4,13 @@ An end-to-end Machine Learning pipeline designed to intelligently match students
 
 ## Live API Demonstration (Task 13)
 
-The production-grade calibrated model is packaged and served via a live REST API using **FastAPI**.
+### 🌐 Public Live API Demonstration
+The production-grade calibrated model is live and accessible globally!
 
-### How to run the Live Demo locally:
+You can test the model interactively and view the Swagger UI documentation by navigating to our public Render deployment:
+👉 **[https://job-catcher-system.onrender.com/docs](https://job-catcher-system.onrender.com/docs)**
+
+### Local Deployment
 1. Clone this repository: `git clone https://github.com/Prakku09/Job-Catcher-System.git`
 2. Install the exact required dependencies: `pip install -r requirements.txt`
 3. Start the live ASGI server:
