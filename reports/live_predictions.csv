@@ -1,0 +1,11 @@
+education_level,years_experience,location_student,python_score,sql_score,ml_score,javascript_score,data_structures_score,statistics_score,expected_salary_inr,company,title,location_job,exp_required_years,salary_offered_inr,python_required,sql_required,ml_required,javascript_required,data_structures_required,statistics_required,edu_minimum,is_good_match,pred,probability,threshold,final_prediction
+UG,3,Bengaluru,68.6,44.4,49.7,71.9,42.1,48.9,843066,Northbridge AI,QA Engineer,Delhi,0.8,823868,,,,45.3,,,UG,1,1,0.9467383669098351,0.45000000000000007,1
+UG,6,Chennai,,23.6,52.3,58.8,62.5,54.5,1682035,Kestrel Robotics,Data Scientist,Mumbai,2.9,778340,39.3,,31.5,58.5,45.0,,UG,1,1,0.5903929589051403,0.45000000000000007,1
+UG,1,Ahmedabad,61.8,31.4,51.9,47.7,73.6,65.1,1570402,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG,0,0,0.3467784563926804,0.45000000000000007,0
+PG,0,Ahmedabad,76.3,66.5,73.6,70.7,96.4,59.8,1027587,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG,1,1,0.45863214925984447,0.45000000000000007,1
+UG,1,Chennai,96.8,65.1,83.7,75.7,90.9,97.4,1040674,NimbusWorks,Junior Data Analyst,Pune,1.1,848636,61.2,53.9,21.8,,52.6,36.8,PG,1,1,0.8299824889381457,0.45000000000000007,1
+PhD,2,Ahmedabad,94.0,83.4,75.9,86.3,,100.0,1020611,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG,1,1,0.9313586549428257,0.45000000000000007,1
+PG,3,Delhi,,40.0,59.7,48.4,45.3,74.1,1154405,Lucent Analytics,Frontend Developer,Mumbai,1.5,801522,47.3,,23.5,73.1,,90.3,UG,0,0,0.3199626117259991,0.45000000000000007,0
+UG,4,Bengaluru,64.0,68.6,81.9,84.0,64.6,66.3,799812,Solace Data,Full Stack Developer,Chennai,2.1,1612377,41.2,58.8,,39.8,54.3,44.7,UG,0,1,0.832194089897107,0.45000000000000007,1
+UG,3,Pune,56.1,80.7,29.5,60.1,75.9,59.0,709890,Northbridge AI,Research Intern,Bengaluru,0.7,1078650,,69.8,54.8,,42.7,,PG,0,1,0.8766583276808072,0.45000000000000007,1
+UG,0,Hyderabad,44.8,,31.1,19.6,33.3,43.5,998905,Kestrel Robotics,Backend Developer,Bengaluru,2.6,1579891,56.0,56.7,42.4,73.6,74.6,54.2,UG,0,0,0.008258919907375198,0.45000000000000007,0

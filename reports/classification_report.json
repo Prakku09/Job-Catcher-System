@@ -1,0 +1,37 @@
+{
+    "0": {
+        "precision": 0.8571428571428571,
+        "recall": 0.782608695652174,
+        "f1-score": 0.8181818181818182,
+        "support": 46.0
+    },
+    "1": {
+        "precision": 0.696969696969697,
+        "recall": 0.7931034482758621,
+        "f1-score": 0.7419354838709677,
+        "support": 29.0
+    },
+    "accuracy": 0.7866666666666666,
+    "macro avg": {
+        "precision": 0.777056277056277,
+        "recall": 0.787856071964018,
+        "f1-score": 0.7800586510263929,
+        "support": 75.0
+    },
+    "weighted avg": {
+        "precision": 0.7952092352092351,
+        "recall": 0.7866666666666666,
+        "f1-score": 0.7886999022482893,
+        "support": 75.0
+    },
+    "metadata": {
+        "git_commit": "a57bae1",
+        "timestamp": "2026-07-08T19:34:05.092663Z",
+        "python_version": "3.13.14",
+        "sklearn_version": "1.9.0",
+        "dataset_path": "src/data/clean_modelling_table.csv",
+        "random_seed": 42,
+        "train_samples": 425,
+        "test_samples": 75
+    }
+}

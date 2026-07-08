@@ -1,0 +1,16 @@
+{
+    "brier_score_uncalibrated": 0.15818677632980005,
+    "brier_score_sigmoid": 0.1548525508288765,
+    "brier_score_isotonic": 0.15726078624268902,
+    "selected_method": "sigmoid",
+    "metadata": {
+        "git_commit": "a57bae1",
+        "timestamp": "2026-07-08T19:34:05.092663Z",
+        "python_version": "3.13.14",
+        "sklearn_version": "1.9.0",
+        "dataset_path": "src/data/clean_modelling_table.csv",
+        "random_seed": 42,
+        "train_samples": 425,
+        "test_samples": 75
+    }
+}

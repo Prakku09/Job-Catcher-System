@@ -1,0 +1,19 @@
+{
+    "optimal_threshold": 0.45000000000000007,
+    "justification": "Maximized F1-Score on the calibration set. A cost-sensitive analysis implies higher penalty for missing a good candidate (FN).",
+    "expected_error": {
+        "false_positives": 10,
+        "false_negatives": 6
+    },
+    "expected_cost_usd": 17000.0,
+    "metadata": {
+        "git_commit": "a57bae1",
+        "timestamp": "2026-07-08T19:34:05.092663Z",
+        "python_version": "3.13.14",
+        "sklearn_version": "1.9.0",
+        "dataset_path": "src/data/clean_modelling_table.csv",
+        "random_seed": 42,
+        "train_samples": 425,
+        "test_samples": 75
+    }
+}

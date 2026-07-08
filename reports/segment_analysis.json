@@ -1,0 +1,22 @@
+{
+    "experience": {
+        "freshers": {
+            "accuracy": 0.8260869565217391,
+            "f1_score": 0.7647058823529411
+        },
+        "experienced": {
+            "accuracy": 0.7241379310344828,
+            "f1_score": 0.7142857142857143
+        }
+    },
+    "metadata": {
+        "git_commit": "a57bae1",
+        "timestamp": "2026-07-08T19:34:05.092663Z",
+        "python_version": "3.13.14",
+        "sklearn_version": "1.9.0",
+        "dataset_path": "src/data/clean_modelling_table.csv",
+        "random_seed": 42,
+        "train_samples": 425,
+        "test_samples": 75
+    }
+}
