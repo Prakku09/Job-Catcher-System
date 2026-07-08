@@ -44,3 +44,23 @@ The model seems to struggle with the nuances of AI & ML topics. Some concepts li
 - Calculate text length or complexity metrics (e.g., presence of math symbols) as additional numerical features.
 - Explore non-linear models (e.g., Random Forest or Gradient Boosting) since vocabulary alone might not capture difficulty linearly.
 - Handle class imbalance during TF-IDF (some topics might dominate).
+
+## Task 9/10: Job Match Random Forest Tuning Metrics
+
+- **Run Timestamp**: 2026-07-07T06:16:24Z
+- **Git Commit**: d6e5de3
+- **Model**: RandomForestClassifier (tuned via RandomizedSearchCV, 15 candidates, cv=3)
+- **Best Parameters**: `n_estimators: 50`, `min_samples_split: 10`, `max_depth: null`
+- **CV ROC-AUC**: 0.8393
+
+### Test Metrics
+- **Accuracy**: 0.7733
+- **Precision**: 0.7727
+- **Recall**: 0.5862
+- **F1 Score**: 0.6667
+- **ROC-AUC**: 0.8523
+
+### Thresholding & Gates
+- **Optimal F1 Threshold**: 0.3597 (Achieves F1 of 0.75)
+- **Gates**: All passed (ROC > 0.75, Acc > 0.65)
+- **Artifact**: `models/rf_job_match_pipeline_tuned.pkl`

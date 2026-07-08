@@ -1,0 +1,29 @@
+{
+  "run_timestamp_utc": "2026-07-08T13:39:12.301012Z",
+  "git_commit": "8dc45f9",
+  "data_file": "src/data/clean_modelling_table.csv",
+  "n_train": 425,
+  "n_test": 75,
+  "model": "RandomForestClassifier (tuned via RandomizedSearchCV)",
+  "best_params": {
+    "classifier__n_estimators": 50,
+    "classifier__min_samples_split": 10,
+    "classifier__max_depth": null
+  },
+  "best_cv_roc_auc": 0.8393,
+  "test_metrics": {
+    "accuracy": 0.7733,
+    "precision": 0.7727,
+    "recall": 0.5862,
+    "f1": 0.6667,
+    "roc_auc": 0.8523
+  },
+  "optimal_f1_threshold": 0.3597,
+  "optimal_f1_at_that_threshold": 0.75,
+  "gates": {
+    "test_roc_auc_gt_0.75": true,
+    "test_accuracy_gt_0.65": true,
+    "all_gates_passed": true
+  },
+  "artifact_path": "models/rf_job_match_pipeline_tuned.pkl"
+}

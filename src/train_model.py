@@ -6,11 +6,14 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV, GridSe
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score, classification_report, roc_auc_score, roc_curve, precision_recall_curve, f1_score, auc
+from sklearn.metrics import accuracy_score, classification_report, roc_auc_score, roc_curve, precision_recall_curve, f1_score, auc, precision_score, recall_score
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline
 import joblib
 import os
+import json
+import subprocess
+from datetime import datetime
 
 class JobMatchPreprocessor(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
@@ -202,6 +205,42 @@ def main():
     os.makedirs('models', exist_ok=True)
     joblib.dump(best_pipeline, 'models/rf_job_match_pipeline_tuned.pkl')
     print("\nTuned RF Pipeline saved to models/rf_job_match_pipeline_tuned.pkl")
+    
+    # 9. Save metrics to JSON
+    try:
+        git_commit = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).decode('utf-8').strip()
+    except Exception:
+        git_commit = "unknown"
+        
+    metrics = {
+        "run_timestamp_utc": datetime.utcnow().isoformat() + "Z",
+        "git_commit": git_commit,
+        "data_file": data_path,
+        "n_train": len(X_train_full),
+        "n_test": len(X_test),
+        "model": "RandomForestClassifier (tuned via RandomizedSearchCV)",
+        "best_params": random_search.best_params_,
+        "best_cv_roc_auc": round(float(random_search.best_score_), 4),
+        "test_metrics": {
+            "accuracy": round(float(test_acc), 4),
+            "precision": round(float(precision_score(y_test, test_preds, zero_division=0)), 4),
+            "recall": round(float(recall_score(y_test, test_preds, zero_division=0)), 4),
+            "f1": round(float(f1_score(y_test, test_preds, zero_division=0)), 4),
+            "roc_auc": round(float(test_roc_auc), 4)
+        },
+        "optimal_f1_threshold": round(float(best_threshold), 4),
+        "optimal_f1_at_that_threshold": round(float(best_f1), 4),
+        "gates": {
+            "test_roc_auc_gt_0.75": bool(test_roc_auc > 0.75),
+            "test_accuracy_gt_0.65": bool(test_acc > 0.65),
+            "all_gates_passed": bool(test_roc_auc > 0.75 and test_acc > 0.65)
+        },
+        "artifact_path": "models/rf_job_match_pipeline_tuned.pkl"
+    }
+    
+    with open('metrics.json', 'w') as f:
+        json.dump(metrics, f, indent=2)
+    print("\nMetrics successfully saved to metrics.json")
 
 if __name__ == '__main__':
     main()
