@@ -1,0 +1,41 @@
+{
+    "timestamp": "2026-07-08T19:02:48.423175Z",
+    "git_commit": "3f6b5aa",
+    "python_version": "3.13.14",
+    "sklearn_version": "1.9.0",
+    "random_seed": 42,
+    "dataset": "src/data/clean_modelling_table.csv",
+    "train_samples": 425,
+    "test_samples": 75,
+    "best_single_model": {
+        "name": "logistic_regression",
+        "accuracy": 0.8133333333333334,
+        "precision": 0.7142857142857143,
+        "recall": 0.8620689655172413,
+        "f1": 0.78125,
+        "roc_auc": 0.8710644677661169,
+        "pr_auc": 0.756862520835305
+    },
+    "voting_classifier": {
+        "accuracy": 0.7733333333333333,
+        "precision": 0.7142857142857143,
+        "recall": 0.6896551724137931,
+        "f1": 0.7017543859649122,
+        "roc_auc": 0.8778110944527736,
+        "pr_auc": 0.7731116083731044
+    },
+    "stacking_classifier": {
+        "accuracy": 0.7866666666666666,
+        "precision": 0.696969696969697,
+        "recall": 0.7931034482758621,
+        "f1": 0.7419354838709677,
+        "roc_auc": 0.8718140929535232,
+        "pr_auc": 0.7549368252575457
+    },
+    "average_pairwise_disagreement": 0.1372549019607843,
+    "latency": {
+        "single_model_ms": 0.0018093866606553395,
+        "voting_ms": 0.025208746641874315,
+        "stacking_ms": 0.026718879987796148
+    }
+}

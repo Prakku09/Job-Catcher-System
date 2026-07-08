@@ -1,0 +1,7 @@
+{
+    "train_accuracy": 0.8023529411764706,
+    "test_accuracy": 0.7866666666666666,
+    "train_roc_auc": 0.886186952653023,
+    "test_roc_auc": 0.8718140929535232,
+    "generalization_gap": 0.014372859699499863
+}

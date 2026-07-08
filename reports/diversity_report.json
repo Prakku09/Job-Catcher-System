@@ -1,0 +1,12 @@
+{
+    "disagreement_matrix": {
+        "logistic_regression_vs_decision_tree": 0.18588235294117647,
+        "logistic_regression_vs_knn": 0.11294117647058824,
+        "logistic_regression_vs_naive_bayes": 0.09176470588235294,
+        "decision_tree_vs_knn": 0.17176470588235293,
+        "decision_tree_vs_naive_bayes": 0.17411764705882352,
+        "knn_vs_naive_bayes": 0.08705882352941176
+    },
+    "average_disagreement": 0.1372549019607843,
+    "explanation": "High disagreement indicates that base models are capturing different patterns, which is ideal for an ensemble to perform well."
+}
