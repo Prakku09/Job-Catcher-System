@@ -1,0 +1,4 @@
+endpoint,status,latency_ms,response
+/health,200,56.1,"{""status"": ""ok"", ""model_loaded"": true}"
+/metadata,200,5.39,"{""model_type"": ""Logistic Regression (Calibrated)"", ""framework"": ""Scikit-Learn"", ""threshold_used"": 0.45000000000000007, ""version"": ""1.0.0"", ""author"": ""Job-Catcher-System""}"
+/predict,200,31.06,"{""probability"": 0.2834, ""is_good_match"": 0, ""threshold_used"": 0.45000000000000007}"

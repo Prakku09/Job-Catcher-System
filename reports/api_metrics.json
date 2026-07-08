@@ -1,0 +1,18 @@
+{
+    "timestamp": "2026-07-08T20:04:33.243534Z",
+    "endpoints": {
+        "health": {
+            "status_code": 200,
+            "latency_ms": 56.1
+        },
+        "metadata": {
+            "status_code": 200,
+            "latency_ms": 5.39
+        },
+        "predict": {
+            "status_code": 200,
+            "avg_latency_ms": 31.06,
+            "test_iterations": 10
+        }
+    }
+}
