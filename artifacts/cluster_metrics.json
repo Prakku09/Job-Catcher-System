@@ -1,0 +1,8 @@
+{
+    "silhouette_score": 0.2259512158697403,
+    "inertia_wcss": 3474.4339875124815,
+    "calinski_harabasz_index": 177.12060673576426,
+    "davies_bouldin_index": 1.60082922305711,
+    "optimal_k": 2,
+    "n_samples": 477
+}

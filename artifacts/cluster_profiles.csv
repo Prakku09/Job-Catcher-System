@@ -1,0 +1,3 @@
+Cluster_ID,Business_Name,Number_of_Samples,Recommendation,Mean_years_experience,Mean_python_score,Mean_sql_score,Mean_ml_score,Mean_statistics_score,Mean_data_structures_score,Mean_javascript_score,Mean_expected_salary_inr,Mean_exp_required_years,Mean_salary_offered_inr
+0,Specialized Data/ML Talent,228,Target for specialized AI roles; emphasize challenging technical problems in the offer.,1.87,47.43,40.52,46.24,41.85,44.82,42.08,960362.4,2.51,1089216.71
+1,Specialized Data/ML Talent,249,Target for specialized AI roles; emphasize challenging technical problems in the offer.,1.64,73.56,72.87,70.07,73.33,75.4,73.89,896853.69,2.49,1115056.41

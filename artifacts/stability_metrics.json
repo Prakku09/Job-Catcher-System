@@ -1,0 +1,22 @@
+{
+    "seed_52": {
+        "ARI": 1.0,
+        "NMI": 1.0,
+        "silhouette_variation": 0.0
+    },
+    "seed_62": {
+        "ARI": 1.0,
+        "NMI": 1.0,
+        "silhouette_variation": 0.0
+    },
+    "seed_72": {
+        "ARI": 1.0,
+        "NMI": 1.0,
+        "silhouette_variation": 0.0
+    },
+    "seed_82": {
+        "ARI": 1.0,
+        "NMI": 1.0,
+        "silhouette_variation": 0.0
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "no_empty_clusters": true,
+    "cluster_sizes_reasonable": true,
+    "all_samples_assigned": true,
+    "metrics_computed": true
+}
