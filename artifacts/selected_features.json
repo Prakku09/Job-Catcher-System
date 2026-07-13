@@ -1,0 +1,15 @@
+{
+    "features": [
+        "years_experience",
+        "python_score",
+        "sql_score",
+        "ml_score",
+        "statistics_score",
+        "data_structures_score",
+        "javascript_score",
+        "expected_salary_inr",
+        "exp_required_years",
+        "salary_offered_inr"
+    ],
+    "count": 10
+}

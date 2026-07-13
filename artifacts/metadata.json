@@ -1,0 +1,10 @@
+{
+    "git_commit": "e5c05cf",
+    "timestamp": "2026-07-09T14:37:25.972349Z",
+    "dataset_name": "src/data/clean_modelling_table.csv",
+    "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "sklearn_version": "1.5.3",
+    "random_seed": 42,
+    "number_of_selected_features": 10,
+    "selected_k": 2
+}

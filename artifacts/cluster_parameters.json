@@ -1,0 +1,7 @@
+{
+    "optimal_k": 2,
+    "selection_method": "Elbow + Silhouette",
+    "scaler": "StandardScaler",
+    "pca_used": true,
+    "variance_retained": 0.9720682349069206
+}

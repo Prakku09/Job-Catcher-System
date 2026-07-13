@@ -1,0 +1,7 @@
+{
+    "no_missing_values": true,
+    "no_infinite_values": true,
+    "no_duplicate_rows": true,
+    "no_zero_variance_features": true,
+    "no_constant_columns": true
+}
