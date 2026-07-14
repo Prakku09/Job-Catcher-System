@@ -1,0 +1,21 @@
+{
+    "timestamp": "2026-07-14T10:48:02.054786Z",
+    "dataset_samples": 500,
+    "validation_strategy": "StratifiedKFold (shuffle=True, random_state=42)",
+    "models_evaluated": [
+        "Logistic Regression",
+        "Random Forest",
+        "SVM",
+        "HistGradientBoosting"
+    ],
+    "best_generalization_model": "Logistic Regression",
+    "best_model_metrics_10fold": {
+        "mean_roc_auc": 0.8696417657045841,
+        "var_roc_auc": 0.001246206371529206,
+        "mean_accuracy": 0.788,
+        "best_fold_roc_auc": 0.9405772495755518,
+        "worst_fold_roc_auc": 0.8268251273344652
+    },
+    "nested_cv_rf_mean_roc_auc": 0.8474173958469373,
+    "conclusion": "Logistic Regression demonstrated the best generalization based on high mean ROC-AUC and low variance across 10 folds."
+}
