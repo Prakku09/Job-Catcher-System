@@ -1,0 +1,12 @@
+{
+    "timestamp": "2026-07-14T11:51:44.808955Z",
+    "sbert_auc": 0.4296621347402597,
+    "tfidf_auc": 0.45516267586580084,
+    "best_representation": "TF-IDF",
+    "error_analysis": {
+        "threshold_used": 0.6734890341758728,
+        "false_positives": 167,
+        "false_negatives": 109
+    },
+    "note": "A full classification model utilizing these NLP features would yield better performance than thresholding similarity alone."
+}
