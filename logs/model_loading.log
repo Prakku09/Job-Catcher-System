@@ -1,0 +1,15 @@
+2026-07-15 15:08:02,351 - INFO - Starting Serialization process...
+2026-07-15 15:08:04,260 - INFO - Loaded source model from models/best_tuned_model.pkl
+2026-07-15 15:08:04,350 - INFO - Serialized model saved to models/job_match_pipeline_v1.0.pkl
+2026-07-15 15:08:04,352 - INFO - Metadata saved to artifacts/metadata.json
+2026-07-15 15:08:04,352 - INFO - Verifying serialization integrity...
+2026-07-15 15:08:04,352 - INFO - Attempting to load model from models/job_match_pipeline_v1.0.pkl
+2026-07-15 15:08:04,360 - INFO - Model loaded successfully.
+2026-07-15 15:08:04,361 - INFO - Metadata loaded successfully.
+2026-07-15 15:08:04,361 - INFO - Compatibility verification completed.
+2026-07-15 15:08:04,459 - INFO - Prediction successful. Result: 0, Confidence: 0.953, Latency: 24.33ms
+2026-07-15 15:08:04,461 - INFO - Serialization Verification: PASS
+2026-07-15 15:08:04,481 - INFO - Prediction successful. Result: 0, Confidence: 0.953, Latency: 20.36ms
+2026-07-15 15:08:04,500 - INFO - Prediction successful. Result: 0, Confidence: 0.957, Latency: 18.32ms
+2026-07-15 15:08:04,519 - INFO - Prediction successful. Result: 0, Confidence: 0.652, Latency: 18.48ms
+2026-07-15 15:08:04,531 - INFO - Task 19 Complete!

@@ -1,0 +1,4 @@
+years_experience,exp_required_years,python_score,python_required,education_level,edu_minimum,location_student,location_job,expected_salary_inr,salary_offered_inr,Predicted_Probability,Prediction
+2.5,3.0,85.0,80.0,PG,UG,Bengaluru,Bengaluru,800000,850000,0.023572901263833046,0
+2.5,3.0,20.0,90.0,PG,UG,Delhi,Bengaluru,800000,850000,0.021625204011797905,0
+10.0,2.0,85.0,80.0,PG,UG,Bengaluru,Bengaluru,800000,850000,0.17406783998012543,0
