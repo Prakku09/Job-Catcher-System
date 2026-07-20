@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Catcher System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <h1>Job Catcher</h1>
+            </div>
+            <div class="actions">
+                <button id="fetch-btn" class="btn primary">Catch New Jobs</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for jobs by title, company, or location...">
+            </div>
+            
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Catching jobs...</p>
+            </div>
+
+            <div id="jobs-container" class="jobs-grid">
+                <!-- Job cards will be injected here -->
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
