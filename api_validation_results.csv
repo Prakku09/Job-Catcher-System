@@ -1,0 +1,6 @@
+Endpoint,Method,StatusCode,Status,Response
+/health,GET,200,Pass,"{""status"":""ok"",""model_loaded"":true}"
+/metadata,GET,200,Pass,"{""model_type"":""Logistic Regression (Calibrated)"",""framework"":""Scikit-Learn"",""threshold_used"":0.45000"
+/predict,POST,200,Pass,"{""probability"":0.4077,""is_good_match"":0,""threshold_used"":0.45000000000000007}"
+/batch_predict,POST,200,Pass,"{""batch_results"":[{""index"":0,""probability"":0.4077,""is_good_match"":0,""threshold_used"":0.4500000000000"
+/metrics,GET,200,Pass,"{""total_requests"":6,""total_errors"":0,""average_latency_seconds"":0.0219}"
