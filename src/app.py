@@ -14,6 +14,8 @@ from typing import List
 # Ensure src module can be found if running from root
 sys.path.append('.')
 
+from src.marketplace_matcher import generate_match_vector, validate_thresholds, map_competencies
+
 app = FastAPI(
     title="Job Match API",
     description="Live REST API for binary classification of Job/Candidate matches.",
@@ -59,6 +61,9 @@ class MatchRequest(BaseModel):
     salary_offered_inr: float = Field(..., description="Job's offered salary in INR")
     edu_minimum: str = Field(..., description="Job's minimum education level required")
     location_job: str = Field(..., description="Job's location")
+    
+    # Configuration
+    thresholds: dict = Field(default_factory=dict, description="Optional custom thresholds for validation")
 
 class BatchMatchRequest(BaseModel):
     requests: List[MatchRequest] = Field(..., description="List of match requests to process in batch")
@@ -157,6 +162,52 @@ def get_metadata():
         "author": "Job-Catcher-System"
     }
 
+@app.post("/generate_match_vector")
+def api_generate_match_vector(request: MatchRequest):
+    """
+    Generates marketplace match vectors using configurable job thresholds.
+    Returns the feature vector consumed by the ML model.
+    """
+    input_data = request.dict()
+    student = {k: v for k, v in input_data.items() if k in [
+        'years_experience', 'python_score', 'sql_score', 'ml_score', 
+        'statistics_score', 'javascript_score', 'data_structures_score', 
+        'expected_salary_inr', 'education_level', 'location_student'
+    ]}
+    job = {k: v for k, v in input_data.items() if k in [
+        'title', 'exp_required_years', 'python_required', 'sql_required', 
+        'ml_required', 'statistics_required', 'javascript_required', 
+        'data_structures_required', 'salary_offered_inr', 'edu_minimum', 'location_job'
+    ]}
+    vector = generate_match_vector(student, job)
+    return {"match_vector": vector}
+
+@app.post("/validate_thresholds")
+def api_validate_thresholds(request: MatchRequest):
+    """
+    Validates every competency before prediction based on configurable thresholds.
+    """
+    input_data = request.dict()
+    student = {k: v for k, v in input_data.items() if k in [
+        'years_experience', 'python_score', 'sql_score', 'ml_score', 
+        'statistics_score', 'javascript_score', 'data_structures_score', 
+        'expected_salary_inr', 'education_level', 'location_student'
+    ]}
+    job = {k: v for k, v in input_data.items() if k in [
+        'title', 'exp_required_years', 'python_required', 'sql_required', 
+        'ml_required', 'statistics_required', 'javascript_required', 
+        'data_structures_required', 'salary_offered_inr', 'edu_minimum', 'location_job'
+    ]}
+    thresholds = input_data.get('thresholds', {})
+    
+    val_results = validate_thresholds(student, job, thresholds)
+    mapping = map_competencies(val_results)
+    
+    return {
+        "validation_results": val_results,
+        "competency_mapping": mapping
+    }
+
 @app.post("/predict")
 def predict_match(request: MatchRequest, raw_request: Request):
     """
@@ -170,7 +221,18 @@ def predict_match(request: MatchRequest, raw_request: Request):
     try:
         # Convert incoming JSON payload to a dictionary, then to a DataFrame (1 row)
         input_data = request.dict()
-        df_input = pd.DataFrame([input_data])
+        
+        # Prepare for validation
+        student = {k: v for k, v in input_data.items() if 'required' not in k and 'job' not in k and k != 'title' and k != 'salary_offered_inr' and k != 'edu_minimum' and k != 'thresholds'}
+        job = {k: v for k, v in input_data.items() if k not in student and k != 'thresholds'}
+        thresholds = input_data.get('thresholds', {})
+        
+        vector = generate_match_vector(student, job)
+        val_results = validate_thresholds(student, job, thresholds)
+        mapping = map_competencies(val_results)
+        
+        input_data_for_df = {k: v for k, v in input_data.items() if k != 'thresholds'}
+        df_input = pd.DataFrame([input_data_for_df])
         
         # Extract components from the package
         model = model_pkg["model"]
@@ -187,7 +249,10 @@ def predict_match(request: MatchRequest, raw_request: Request):
             "request_id": getattr(raw_request.state, "req_id", "unknown"),
             "event": "prediction_result",
             "prediction": decision,
-            "probability": float(proba)
+            "probability": float(proba),
+            "match_vector": vector,
+            "validation": val_results,
+            "mapping": mapping
         }))
         
         return {
